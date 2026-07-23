@@ -1,0 +1,41 @@
+"use client"
+
+export function ExperienceHero() {
+  return (
+    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-24">
+      {/* Background */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/70 to-background z-10" />
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1920&q=80')`,
+          }}
+        />
+        {/* Animated glow */}
+        <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-primary/15 rounded-full blur-[120px] animate-breathe z-5" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-20 container mx-auto px-4 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto">
+          <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-6">
+            La Experiencia
+          </span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <span className="text-foreground">Más que un evento,</span>
+            <br />
+            <span className="text-gradient">una transformación</span>
+          </h1>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Un viaje profundo hacia tu interior donde cada respiración, cada momento de frío, 
+            cada instante de presencia te acerca más a tu verdadera esencia.
+          </p>
+        </div>
+      </div>
+
+      {/* Bottom gradient */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-10" />
+    </section>
+  )
+}
