@@ -7,14 +7,11 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { href: "/", label: "Inicio" },
-  { href: "/experiencia", label: "La Experiencia" },
-  { href: "/beneficios", label: "El Movimiento" },
-  { href: "/eventos", label: "Próxima Edición" },
-  { href: "/agenda", label: "El Día" },
-  { href: "/facilitadores", label: "Quién Te Guía" },
-  { href: "/testimonios", label: "Historias" },
-  { href: "/faq", label: "FAQ" },
+  { href: "#experiencia", label: "La Experiencia" },
+  { href: "#quien", label: "Quién Te Guía" },
+  { href: "#evento", label: "El Evento" },
+  { href: "#testimonios", label: "Historias" },
+  { href: "#faq", label: "FAQ" },
 ]
 
 export function Header() {
@@ -33,48 +30,40 @@ export function Header() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
-        isScrolled
-          ? "glass py-2 sm:py-3"
-          : "bg-transparent py-3 sm:py-5"
+        isScrolled ? "glass py-2 sm:py-3" : "bg-transparent py-3 sm:py-5"
       )}
     >
       <div className="safe-area">
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="relative group">
-            <span className="text-lg sm:text-xl md:text-2xl font-bold tracking-[0.2em] text-foreground">
+            <span className="font-serif text-lg sm:text-xl md:text-2xl font-semibold tracking-[0.14em] text-foreground">
               ESTÁS PARA MÁS
             </span>
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent group-hover:w-full transition-all duration-300" />
+            <span className="absolute -bottom-1 left-0 w-0 h-px bg-plum group-hover:w-full transition-all duration-500" />
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.href}
                 href={item.href}
                 className="px-3 py-2 text-xs md:text-sm text-muted-foreground hover:text-foreground transition-colors duration-300 relative group"
               >
                 {item.label}
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-px bg-primary group-hover:w-3/4 transition-all duration-300" />
-              </Link>
+                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-px bg-plum group-hover:w-3/4 transition-all duration-500" />
+              </a>
             ))}
           </div>
 
-          {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-2">
-            <Link href="/contacto">
-              <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-                Contacto
+          {/* CTA */}
+          <div className="hidden lg:flex items-center">
+            <a href="#inscripcion">
+              <Button size="sm" className="bg-primary hover:bg-plum text-primary-foreground px-4 transition-colors duration-500">
+                Reservar mi lugar
               </Button>
-            </Link>
-            <Link href="/reserva">
-              <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 relative overflow-hidden group">
-                <span className="relative z-10">Quiero mi lugar</span>
-                <span className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] opacity-0 group-hover:opacity-100 group-hover:animate-shimmer transition-opacity" />
-              </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -96,28 +85,20 @@ export function Header() {
         >
           <div className="safe-area py-4 sm:py-6 flex flex-col gap-1">
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="py-3 px-4 text-sm sm:text-base text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded-lg transition-all duration-300 touch-target"
               >
                 {item.label}
-              </Link>
+              </a>
             ))}
-            <hr className="border-border my-3" />
-            <Link
-              href="/contacto"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="py-3 px-4 text-sm sm:text-base text-muted-foreground hover:text-foreground transition-colors touch-target"
-            >
-              Contacto
-            </Link>
-            <Link href="/reserva" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button className="w-full button-mobile bg-primary hover:bg-primary/90 text-primary-foreground mt-3">
-                Quiero mi lugar
+            <a href="#inscripcion" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button className="w-full button-mobile bg-primary hover:bg-plum text-primary-foreground mt-3 transition-colors duration-500">
+                Reservar mi lugar
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

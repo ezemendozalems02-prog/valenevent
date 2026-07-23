@@ -1,17 +1,19 @@
 import type { Metadata, Viewport } from 'next'
-import { Space_Grotesk, Inter } from 'next/font/google'
+import { Cormorant_Garamond, Manrope } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const spaceGrotesk = Space_Grotesk({ 
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  variable: '--font-sans',
+  weight: ['400', '500', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-cormorant',
   display: 'swap',
 });
 
-const inter = Inter({ 
+const manrope = Manrope({
   subsets: ["latin"],
-  variable: '--font-body',
+  variable: '--font-manrope',
   display: 'swap',
 });
 
@@ -46,7 +48,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#1c1712',
+  themeColor: '#F4F0E8',
   width: 'device-width',
   initialScale: 1,
 }
@@ -58,7 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="scroll-smooth">
-      <body className={`${spaceGrotesk.variable} ${inter.variable} font-sans antialiased bg-background text-foreground overflow-x-hidden`}>
+      <body className={`${manrope.variable} ${cormorant.variable} font-sans antialiased bg-background text-foreground overflow-x-hidden`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
