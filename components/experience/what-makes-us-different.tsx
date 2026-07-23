@@ -7,33 +7,33 @@ import { Shield, Eye, Layers, Gem, Heart, Star } from "lucide-react"
 const differentiators = [
   {
     icon: Eye,
-    title: "Enfoque Consciente",
-    description: "No es solo entrar al hielo. Es un proceso profundo de autoconocimiento donde cada práctica tiene un propósito claro.",
+    title: "Identidad, no motivación",
+    description: "La motivación dura poco. Una decisión cambia una dirección. Trabajamos sobre quién elegís ser, no sobre cómo sentirte bien un rato.",
   },
   {
     icon: Shield,
-    title: "Acompañamiento Guiado",
-    description: "Facilitadores certificados que te contienen en cada momento, respetando tu ritmo y tus límites personales.",
+    title: "Sin humo ni fórmulas mágicas",
+    description: "No creemos en promesas vacías ni en el pensamiento positivo como solución. Creemos en decirte la verdad y actuar en consecuencia.",
   },
   {
     icon: Layers,
-    title: "Integración Holística",
-    description: "Combinamos cuerpo, respiración y mentalidad en una experiencia que trabaja todas las dimensiones del ser.",
+    title: "Contra la conformidad",
+    description: "No competimos con otros eventos. Competimos contra esa voz que dice \"estoy bien así\" cuando en realidad sabés que no lo estás.",
   },
   {
     icon: Heart,
-    title: "Contención Emocional",
-    description: "Un espacio seguro donde podés soltar, expresarte y ser vulnerable sin juicios ni presiones.",
+    title: "Vos sos la protagonista",
+    description: "Acá nadie te rescata ni te crea dependencia. Generamos protagonistas: nuestro trabajo termina cuando dejás de necesitarnos.",
   },
   {
     icon: Gem,
-    title: "Estética Premium",
-    description: "Cada detalle está cuidado para que la experiencia sea memorable: el espacio, la música, la atmósfera.",
+    title: "Experiencia premium",
+    description: "Cada detalle está cuidado: el espacio, la luz, la atmósfera. Nada improvisado, todo diseñado para invitarte a respirar más profundo.",
   },
   {
     icon: Star,
-    title: "Comunidad Consciente",
-    description: "Te conectás con personas en el mismo camino, creando vínculos genuinos y una red de apoyo mutuo.",
+    title: "Una comunidad que sostiene",
+    description: "El evento no termina cuando termina: empieza ahí. Te llevás una red de mujeres que eligieron lo mismo que vos.",
   },
 ]
 
@@ -62,8 +62,8 @@ export function WhatMakesUsDifferent() {
             <span className="text-gradient">esta experiencia</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            No somos el típico evento de wellness. Somos una experiencia de transformación 
-            diseñada con intención, profundidad y excelencia.
+            No somos un evento motivacional, ni un retiro, ni una capacitación.
+            Somos una experiencia de expansión de identidad, diseñada con intención y excelencia.
           </p>
         </div>
 

@@ -8,47 +8,36 @@ import { Calendar, MapPin, Clock, Users, ArrowRight } from "lucide-react"
 
 const events = [
   {
-    id: "awaken-mayo",
-    title: "AWAKEN Experience",
+    id: "edicion-buenos-aires",
+    title: "Estás Para Más · Buenos Aires",
     date: "Sábado 15 de Mayo, 2026",
-    time: "15:00 - 19:00 hs",
-    location: "Espacio Consciente, Palermo",
-    spots: { total: 15, available: 8 },
-    type: "Experiencia Completa",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    time: "9:00 - 19:00 hs",
+    location: "Salón premium, Buenos Aires",
+    spots: { total: 100, available: 40 },
+    type: "Jornada Completa",
+    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80",
     featured: true,
   },
   {
-    id: "awaken-junio-1",
-    title: "AWAKEN Experience",
-    date: "Sábado 5 de Junio, 2026",
-    time: "15:00 - 19:00 hs",
-    location: "Espacio Consciente, Palermo",
-    spots: { total: 15, available: 12 },
-    type: "Experiencia Completa",
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80",
-    featured: false,
-  },
-  {
-    id: "awaken-junio-2",
-    title: "AWAKEN Intensivo",
+    id: "edicion-cordoba",
+    title: "Estás Para Más · Córdoba",
     date: "Sábado 19 de Junio, 2026",
-    time: "10:00 - 18:00 hs",
-    location: "Quinta El Despertar, Zona Norte",
-    spots: { total: 20, available: 15 },
-    type: "Retiro de Día Completo",
-    image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80",
+    time: "9:00 - 19:00 hs",
+    location: "Córdoba Capital",
+    spots: { total: 100, available: 75 },
+    type: "Jornada Completa",
+    image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600&q=80",
     featured: false,
   },
   {
-    id: "awaken-julio",
-    title: "AWAKEN Experience",
+    id: "edicion-rosario",
+    title: "Estás Para Más · Rosario",
     date: "Sábado 10 de Julio, 2026",
-    time: "15:00 - 19:00 hs",
-    location: "Espacio Consciente, Palermo",
-    spots: { total: 15, available: 15 },
-    type: "Experiencia Completa",
-    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80",
+    time: "9:00 - 19:00 hs",
+    location: "Rosario, Santa Fe",
+    spots: { total: 100, available: 100 },
+    type: "Jornada Completa",
+    image: "https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?w=600&q=80",
     featured: false,
   },
 ]
@@ -154,9 +143,9 @@ export function EventsGrid() {
                         <ArrowRight size={12} className="ml-2 group-hover:translate-x-1 transition-transform hidden sm:block" />
                       </Button>
                     </Link>
-                    <Link href={`/eventos/${event.id}`} className="hidden sm:block">
+                    <Link href="/experiencia" className="hidden sm:block">
                       <Button variant="outline" className="border-primary/50 hover:bg-primary/10 text-xs sm:text-sm">
-                        Ver detalle
+                        Ver la experiencia
                       </Button>
                     </Link>
                   </div>
@@ -169,11 +158,11 @@ export function EventsGrid() {
         {/* Corporate events note */}
         <div className="mt-10 sm:mt-16 text-center">
           <p className="text-xs sm:text-sm text-muted-foreground mb-4">
-            ¿Buscás una experiencia privada para tu equipo?
+            ¿Querés llevar Estás Para Más a tu organización o comunidad?
           </p>
-          <Link href="/empresas">
+          <Link href="/corporativo">
             <Button variant="outline" size="sm" className="border-primary/50 hover:bg-primary/10 text-xs sm:text-sm">
-              Experiencias corporativas
+              Ediciones privadas
             </Button>
           </Link>
         </div>

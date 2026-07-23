@@ -10,28 +10,28 @@ import { Calendar, MapPin, Clock, Users, Check, MessageCircle, AlertCircle } fro
 
 const events = [
   {
-    id: "awaken-mayo",
-    name: "AWAKEN Experience - 15 de Mayo",
+    id: "edicion-buenos-aires",
+    name: "Estás Para Más - Buenos Aires, 15 de Mayo",
     date: "Sábado 15 de Mayo, 2026",
-    time: "15:00 - 19:00 hs",
-    location: "Espacio Consciente, Palermo",
-    spots: 8,
+    time: "9:00 - 19:00 hs",
+    location: "Salón premium, Buenos Aires",
+    spots: 40,
   },
   {
-    id: "awaken-junio-1",
-    name: "AWAKEN Experience - 5 de Junio",
-    date: "Sábado 5 de Junio, 2026",
-    time: "15:00 - 19:00 hs",
-    location: "Espacio Consciente, Palermo",
-    spots: 12,
-  },
-  {
-    id: "awaken-junio-2",
-    name: "AWAKEN Intensivo - 19 de Junio",
+    id: "edicion-cordoba",
+    name: "Estás Para Más - Córdoba, 19 de Junio",
     date: "Sábado 19 de Junio, 2026",
-    time: "10:00 - 18:00 hs",
-    location: "Quinta El Despertar, Zona Norte",
-    spots: 15,
+    time: "9:00 - 19:00 hs",
+    location: "Córdoba Capital",
+    spots: 75,
+  },
+  {
+    id: "edicion-rosario",
+    name: "Estás Para Más - Rosario, 10 de Julio",
+    date: "Sábado 10 de Julio, 2026",
+    time: "9:00 - 19:00 hs",
+    location: "Rosario, Santa Fe",
+    spots: 100,
   },
 ]
 
@@ -64,10 +64,10 @@ export function ReservationForm() {
               <Check size={32} className="text-primary" />
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-3 sm:mb-4">
-              ¡Reserva recibida!
+              ¡Tu lugar está en camino!
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-muted-foreground mb-6 sm:mb-8">
-              Te contactaremos pronto por WhatsApp para confirmar tu lugar.
+              Te contactaremos pronto por WhatsApp para confirmarlo.
             </p>
             <a
               href="https://wa.me/5491112345678"
@@ -97,7 +97,7 @@ export function ReservationForm() {
             inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
           )}>
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-4 sm:mb-6">
-              Selecciona tu experiencia
+              Elegí tu edición
             </h2>
             
             <div className="flex flex-col gap-3 sm:gap-4">
@@ -150,9 +150,9 @@ export function ReservationForm() {
               <div className="flex items-start gap-2 sm:gap-3">
                 <AlertCircle size={16} className="text-primary shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-medium text-foreground mb-1 text-xs sm:text-sm">Cupos limitados</h4>
+                  <h4 className="font-medium text-foreground mb-1 text-xs sm:text-sm">Cupo limitado</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2">
-                    Mantenemos grupos reducidos para una experiencia personalizada.
+                    El cupo está limitado por el diseño de la experiencia, para que cada mujer viva el día como fue pensado.
                   </p>
                 </div>
               </div>
@@ -247,11 +247,11 @@ export function ReservationForm() {
                 disabled={!selectedEvent || isSubmitting}
                 className="button-mobile bg-primary hover:bg-primary/90 text-primary-foreground mt-2 sm:mt-4 text-xs sm:text-sm"
               >
-                {isSubmitting ? "Enviando..." : "Reservar"}
+                {isSubmitting ? "Enviando..." : "Quiero mi lugar"}
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                Al reservar aceptás que te contactemos.
+                Al enviar el formulario aceptás que te contactemos.
               </p>
             </form>
           </div>

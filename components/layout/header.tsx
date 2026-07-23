@@ -9,11 +9,11 @@ import { cn } from "@/lib/utils"
 const navItems = [
   { href: "/", label: "Inicio" },
   { href: "/experiencia", label: "La Experiencia" },
-  { href: "/beneficios", label: "Beneficios" },
-  { href: "/eventos", label: "Próximos Eventos" },
-  { href: "/agenda", label: "Agenda" },
-  { href: "/facilitadores", label: "Facilitadores" },
-  { href: "/testimonios", label: "Testimonios" },
+  { href: "/beneficios", label: "El Movimiento" },
+  { href: "/eventos", label: "Próxima Edición" },
+  { href: "/agenda", label: "El Día" },
+  { href: "/facilitadores", label: "Quién Te Guía" },
+  { href: "/testimonios", label: "Historias" },
   { href: "/faq", label: "FAQ" },
 ]
 
@@ -43,7 +43,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="relative group">
             <span className="text-lg sm:text-xl md:text-2xl font-bold tracking-[0.2em] text-foreground">
-              AWAKEN
+              ESTÁS PARA MÁS
             </span>
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent group-hover:w-full transition-all duration-300" />
           </Link>
@@ -71,7 +71,7 @@ export function Header() {
             </Link>
             <Link href="/reserva">
               <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 relative overflow-hidden group">
-                <span className="relative z-10">Reservar</span>
+                <span className="relative z-10">Quiero mi lugar</span>
                 <span className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] opacity-0 group-hover:opacity-100 group-hover:animate-shimmer transition-opacity" />
               </Button>
             </Link>
@@ -115,7 +115,7 @@ export function Header() {
             </Link>
             <Link href="/reserva" onClick={() => setIsMobileMenuOpen(false)}>
               <Button className="w-full button-mobile bg-primary hover:bg-primary/90 text-primary-foreground mt-3">
-                Reservar Lugar
+                Quiero mi lugar
               </Button>
             </Link>
           </div>

@@ -13,20 +13,20 @@ import {
 
 const faqs = [
   {
-    question: "¿Necesito experiencia previa?",
-    answer: "No, no necesitas ninguna experiencia previa. La experiencia está diseñada para todos los niveles. Te guiamos paso a paso y respetamos tu ritmo personal en todo momento.",
+    question: "¿Es un evento de desarrollo personal?",
+    answer: "No en el sentido tradicional. No venimos a darte herramientas ni frases inspiradoras: es una experiencia de expansión de identidad. Un día diseñado para que tomes una decisión que venís postergando.",
   },
   {
-    question: "¿Es seguro entrar al hielo?",
-    answer: "Sí, completamente. La inmersión se realiza de forma gradual y controlada, con facilitadores capacitados presentes en todo momento. Antes de entrar, preparamos tu cuerpo y mente con técnicas de respiración.",
+    question: "¿Y si mi vida ya está bien?",
+    answer: "Justamente. Estás Para Más no es para mujeres que están mal: es para mujeres que tienen una vida correcta y saben, en silencio, que no las representa del todo. Si te resonó esa frase, es para vos.",
   },
   {
-    question: "¿Qué tengo que llevar?",
-    answer: "Traje de baño, toalla, ropa cómoda para antes y después, y una mente abierta. Nosotros proporcionamos todo lo demás: hidratación, snacks saludables y un espacio preparado para tu experiencia.",
+    question: "¿Tengo que compartir mi historia frente a otras?",
+    answer: "No. Nadie te va a exponer ni presionar. Todo lo que trabajás durante el día es tuyo; compartís únicamente lo que elijas compartir. El espacio está cuidado hasta el último detalle.",
   },
   {
-    question: "¿Puedo asistir si me da miedo el hielo?",
-    answer: "¡Absolutamente! De hecho, muchas personas vienen precisamente para superar ese miedo. El trabajo previo de breathwork te prepara mental y físicamente. El frío se convierte en una herramienta de transformación.",
+    question: "¿Voy a salir con algo concreto?",
+    answer: "Sí. No te vas con una carpeta de apuntes: te vas con una decisión tomada y una dirección clara. Y con una comunidad de mujeres que eligieron lo mismo que vos.",
   },
 ]
 
@@ -52,12 +52,12 @@ export function FAQPreviewSection() {
               Preguntas Frecuentes
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight text-balance">
-              Todo lo que necesitas{" "}
+              Todo lo que necesitás{" "}
               <span className="text-gradient">saber</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Resolvemos las dudas más comunes para que llegues al evento 
-              con total claridad y confianza.
+              Las dudas más comunes, respondidas con honestidad.
+              Sin promesas exageradas, sin letra chica.
             </p>
             <Link 
               href="/faq" 

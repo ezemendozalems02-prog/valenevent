@@ -28,19 +28,19 @@ export function GalleryHero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance"
         >
-          Momentos de{' '}
+          Momentos{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary">
-            Transformación
+            Reales
           </span>
         </motion.h1>
-        
+
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty"
         >
-          Cada imagen captura un instante de conexión profunda, superación y despertar interior
+          Cada imagen captura un instante de una jornada de Estás Para Más: la verdad, la decisión, la comunidad
         </motion.p>
       </div>
     </section>

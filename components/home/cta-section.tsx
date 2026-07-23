@@ -37,20 +37,19 @@ export function CTASection() {
 
           {/* Manifesto text */}
           <p className="text-lg md:text-xl text-muted-foreground mb-6 italic">
-            &quot;Esto no es solo una práctica. Es un portal.&quot;
+            &quot;¿Y si la vida que hoy considerás normal no fuera la vida que realmente querés vivir?&quot;
           </p>
 
           {/* Main headline */}
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight text-balance">
-            El momento de{" "}
-            <span className="text-gradient">transformarte</span>{" "}
-            es ahora
+            Estás{" "}
+            <span className="text-gradient">para más</span>
           </h2>
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            No esperes el momento perfecto. Créalo. Reserva tu lugar en la 
-            próxima experiencia AWAKEN y comienza tu viaje hacia tu versión 
-            más expandida.
+            Ninguna transformación importante empezó cuando todo estuvo resuelto.
+            Todas empezaron cuando alguien decidió dejar de esperar.
+            Esta puede ser tu decisión.
           </p>
 
           {/* CTA Buttons */}
@@ -61,7 +60,7 @@ export function CTASection() {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-6 text-lg group relative overflow-hidden"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  Reservar mi lugar
+                  Quiero mi lugar
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </span>
                 <span className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] opacity-0 group-hover:opacity-100 group-hover:animate-shimmer transition-opacity" />
@@ -82,15 +81,15 @@ export function CTASection() {
           <div className="flex items-center justify-center gap-8 mt-12 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-accent" />
-              <span>Cupos limitados</span>
+              <span>Experiencia premium</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-accent" />
-              <span>Espacio seguro</span>
+              <span>Espacio de verdad</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-accent" />
-              <span>Facilitadores certificados</span>
+              <span>Comunidad femenina</span>
             </div>
           </div>
         </div>

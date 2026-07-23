@@ -8,7 +8,7 @@ export function AgendaHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&q=80')`,
           }}
         />
         <div className="absolute bottom-1/3 right-1/3 w-80 h-80 bg-accent/15 rounded-full blur-[100px] animate-breathe z-5" />
@@ -17,16 +17,16 @@ export function AgendaHero() {
       <div className="relative z-20 container mx-auto px-4 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-6">
-            Agenda
+            El Día
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="text-foreground">Cronograma de</span>
+            <span className="text-foreground">Un día que puede marcar</span>
             <br />
-            <span className="text-gradient">la experiencia</span>
+            <span className="text-gradient">un antes y un después</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Cada momento está cuidadosamente diseñado para llevarte en un viaje 
-            de transformación paso a paso.
+            No te contamos el cronograma minuto a minuto: te contamos el recorrido.
+            Cada momento está diseñado para llevarte hasta una decisión.
           </p>
         </div>
       </div>

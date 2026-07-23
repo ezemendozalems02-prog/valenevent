@@ -7,18 +7,11 @@ import { ArrowRight, Instagram } from "lucide-react"
 
 const facilitators = [
   {
-    name: "Nahuel Martínez",
-    role: "Facilitador de Inmersión en Hielo",
-    description: "Especialista en trabajo corporal y expansión de la conciencia a través del frío.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-    instagram: "@nahuel.ice",
-  },
-  {
-    name: "Luciana Vega",
-    role: "Guía de Breathwork",
-    description: "Facilitadora de respiración consciente y conexión interior con más de 10 años de experiencia.",
+    name: "Valentina",
+    role: "Creadora de Estás Para Más",
+    description: "No viene a decirte qué hacer con tu vida. Ya vivió ese camino y hoy extiende una mano para acompañar a otras mujeres a recorrerlo.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
-    instagram: "@luciana.breath",
+    instagram: "@estasparamas",
   },
 ]
 
@@ -40,20 +33,20 @@ export function FacilitatorsSection() {
           inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-4">
-            Facilitadores
+            Quién Te Guía
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Quienes te{" "}
-            <span className="text-gradient">guiarán</span>
+            La protagonista{" "}
+            <span className="text-gradient">sos vos</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Profesionales experimentados que te acompañarán con presencia, 
-            contención y sabiduría en cada paso del camino.
+            Valentina no es el centro de esta historia: es quien la facilita.
+            Su trabajo termina cuando dejás de necesitarla para tomar decisiones.
           </p>
         </div>
 
         {/* Facilitators Grid */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid gap-8 max-w-md mx-auto">
           {facilitators.map((facilitator, index) => (
             <div
               key={index}
@@ -105,7 +98,7 @@ export function FacilitatorsSection() {
             href="/facilitadores" 
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Conocer más sobre el equipo
+            Conocer la historia de Valentina
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

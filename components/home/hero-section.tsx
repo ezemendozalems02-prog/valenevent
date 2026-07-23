@@ -23,7 +23,7 @@ export function HeroSection() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&q=80')`,
           }}
         />
         {/* Animated glow orbs - hidden on mobile */}
@@ -38,20 +38,20 @@ export function HeroSection() {
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full glass mb-6 sm:mb-8 animate-fade-in text-xs sm:text-sm">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
             <span className="text-muted-foreground tracking-wide">
-              Próxima: 15 de Mayo
+              Próxima edición: 15 de Mayo · Buenos Aires
             </span>
           </div>
 
           {/* Main headline */}
           <h1 className="mobile-heading-lg font-bold leading-tight mb-4 sm:mb-6 animate-fade-in animation-delay-200">
-            <span className="block text-foreground">Despierta tu energía.</span>
-            <span className="block text-gradient mt-2">Expande tu conciencia.</span>
-            <span className="block text-foreground/90 mt-2">Reconecta con tu poder.</span>
+            <span className="block text-foreground">Hay una forma de vivir</span>
+            <span className="block text-gradient mt-2">que todavía no conocés.</span>
+            <span className="block text-foreground/90 mt-2">Y también puede ser tuya.</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed animate-fade-in animation-delay-400">
-            Experiencias inmersivas de breathwork, inmersión en hielo, meditación y presencia.
+            Una experiencia para mujeres que ya no quieren conformarse con una vida que está bien. Un día para dejar de vivir por inercia y empezar a vivir por elección.
           </p>
 
           {/* CTA Buttons */}
@@ -61,7 +61,7 @@ export function HeroSection() {
                 className="button-mobile bg-primary hover:bg-primary/90 text-primary-foreground px-6 sm:px-8 py-5 sm:py-6 group relative overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  Ver próximos eventos
+                  Quiero estar ahí
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform hidden sm:block" />
                 </span>
               </Button>
@@ -71,7 +71,7 @@ export function HeroSection() {
                 variant="outline" 
                 className="border-primary/50 hover:bg-primary/10 text-foreground px-6 sm:px-8 py-5 sm:py-6"
               >
-                Reservar lugar
+                Conocer la experiencia
               </Button>
             </Link>
           </div>
@@ -79,9 +79,9 @@ export function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-8 mt-10 sm:mt-16 max-w-xl mx-auto animate-fade-in animation-delay-800">
             {[
-              { value: "500+", label: "Experiencias" },
-              { value: "15", label: "Cupos" },
-              { value: "100%", label: "Cuidados" },
+              { value: "1 día", label: "Una experiencia presencial" },
+              { value: "1", label: "Decisión que lo cambia todo" },
+              { value: "100%", label: "Pensado para vos" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-xl sm:text-2xl md:text-3xl font-bold text-gradient">{stat.value}</div>

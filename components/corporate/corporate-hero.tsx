@@ -24,7 +24,7 @@ export function CorporateHero() {
             className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6"
           >
             <Building2 className="w-4 h-4 text-primary" />
-            <span className="text-primary font-medium text-sm">Experiencias Corporativas</span>
+            <span className="text-primary font-medium text-sm">Ediciones Privadas</span>
           </motion.div>
           
           <motion.h1
@@ -33,21 +33,21 @@ export function CorporateHero() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance"
           >
-            Transforma el{' '}
+            Llevá{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary">
-              Bienestar
+              Estás Para Más
             </span>{' '}
-            de tu Equipo
+            a tu organización
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 text-pretty"
           >
-            Experiencias inmersivas diseñadas para potenciar el rendimiento, reducir el estrés
-            y fortalecer la conexión de tu equipo
+            Ediciones privadas de la experiencia, diseñadas a medida para equipos
+            y comunidades de mujeres que quieren dejar de vivir por inercia
           </motion.p>
           
           <motion.div

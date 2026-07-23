@@ -19,76 +19,76 @@ import {
 
 const benefits = [
   {
-    icon: Brain,
-    title: "Claridad Mental",
-    description: "El frío y la respiración limpian la mente de ruido, permitiéndote pensar con más nitidez y tomar mejores decisiones.",
-    category: "Mental",
-  },
-  {
-    icon: Heart,
-    title: "Conexión Mente-Cuerpo",
-    description: "Aprendés a escuchar las señales de tu cuerpo y a moverte con mayor conciencia en tu día a día.",
-    category: "Físico",
-  },
-  {
-    icon: Zap,
-    title: "Energía Vital Renovada",
-    description: "Salís con una sensación de vitalidad y energía que perdura días después de la experiencia.",
-    category: "Energético",
-  },
-  {
     icon: Shield,
-    title: "Resiliencia Mental",
-    description: "El entrenamiento del frío fortalece tu capacidad para enfrentar desafíos y mantenerte firme bajo presión.",
-    category: "Mental",
+    title: "Responsabilidad antes que excusas",
+    description: "Responsabilidad no es cargar con todo: es recuperar el poder. Mientras todo dependa del entorno, siempre habrá algo que esperar.",
+    category: "Principio",
   },
   {
     icon: Eye,
-    title: "Mayor Presencia",
-    description: "Desarrollás la capacidad de estar verdaderamente presente, aquí y ahora, sin distracciones mentales.",
-    category: "Espiritual",
+    title: "Verdad antes que comodidad",
+    description: "La transformación ocurre cuando una mujer se anima a decirse la verdad. Y actúa en consecuencia.",
+    category: "Principio",
   },
   {
     icon: Flame,
-    title: "Liberación Emocional",
-    description: "El breathwork profundo permite soltar emociones atrapadas y patrones que ya no te sirven.",
-    category: "Emocional",
-  },
-  {
-    icon: Wind,
-    title: "Regulación del Estrés",
-    description: "Aprendés técnicas que podés usar en tu vida diaria para manejar el estrés y la ansiedad.",
-    category: "Mental",
+    title: "Acción antes que perfección",
+    description: "Ninguna transformación importante empezó cuando todo estuvo resuelto. Todas empezaron cuando alguien decidió dejar de esperar.",
+    category: "Principio",
   },
   {
     icon: Sparkles,
-    title: "Expansión de Consciencia",
-    description: "Accedés a estados expandidos de conciencia de forma natural, sin sustancias externas.",
-    category: "Espiritual",
-  },
-  {
-    icon: Target,
-    title: "Enfoque y Concentración",
-    description: "La disciplina del frío entrena tu mente para mantener el foco incluso en condiciones adversas.",
-    category: "Mental",
-  },
-  {
-    icon: RefreshCw,
-    title: "Reset del Sistema Nervioso",
-    description: "Reiniciás tu sistema nervioso, pasando de estados de estrés crónico a equilibrio parasimpático.",
-    category: "Físico",
+    title: "Expansión antes que conformidad",
+    description: "Expandirse es dejar de vivir dentro de los límites de la persona que fuiste hasta hoy. Pensar, elegir y vivir más grande.",
+    category: "Principio",
   },
   {
     icon: Users,
-    title: "Sentido de Comunidad",
-    description: "Te conectás con personas afines, creando vínculos profundos basados en experiencias compartidas.",
-    category: "Social",
+    title: "Comunidad antes que individualismo",
+    description: "Las mujeres no necesitan competir entre ellas. Necesitan verse, escucharse, sostenerse y celebrarse.",
+    category: "Principio",
   },
   {
     icon: Crown,
-    title: "Confianza Interior",
-    description: "Después de atravesar el hielo, sentís una confianza profunda en tu capacidad de superar cualquier cosa.",
-    category: "Emocional",
+    title: "Identidad antes que motivación",
+    description: "La motivación dura poco. Una decisión cambia una dirección. El resultado siempre llega después de la identidad, nunca antes.",
+    category: "Principio",
+  },
+  {
+    icon: Brain,
+    title: "Claridad de dirección",
+    description: "Dejás de preguntarte \"¿será que esto es todo?\" y empezás a preguntarte \"¿qué tipo de vida quiero construir de ahora en adelante?\".",
+    category: "Te llevás",
+  },
+  {
+    icon: Target,
+    title: "Una decisión tomada",
+    description: "No una lista de tareas ni una carpeta de apuntes: una decisión concreta sobre la vida que vas a dejar de aceptar.",
+    category: "Te llevás",
+  },
+  {
+    icon: RefreshCw,
+    title: "Una mirada nueva",
+    description: "Volvés a tu casa y ya no podés mirar tu vida con los mismos ojos. Una vez que ves una posibilidad más grande, es muy difícil volver a conformarte.",
+    category: "Te llevás",
+  },
+  {
+    icon: Heart,
+    title: "Tu propia voz",
+    description: "Volvés a hacerte la pregunta que la vida correcta silenció: ¿esta vida realmente me representa?",
+    category: "Te llevás",
+  },
+  {
+    icon: Zap,
+    title: "Poder personal",
+    description: "No buscamos motivarte: buscamos que recuperes el poder de crear una realidad distinta. Eso nadie te lo puede dar ni quitar.",
+    category: "Te llevás",
+  },
+  {
+    icon: Wind,
+    title: "Una comunidad real",
+    description: "El evento no termina cuando termina: empieza ahí. Te vas acompañada por mujeres que eligieron lo mismo que vos.",
+    category: "Te llevás",
   },
 ]
 
@@ -109,11 +109,11 @@ export function BenefitsGrid() {
           inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Beneficios que{" "}
-            <span className="text-gradient">transforman</span>
+            Nuestros principios y{" "}
+            <span className="text-gradient">lo que te llevás</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Estos son algunos de los cambios que experimentan quienes viven la experiencia AWAKEN.
+            Toda decisión dentro de Estás Para Más responde a estos principios. Sin promesas exageradas: profundidad, verdad y humanidad.
           </p>
         </div>
 

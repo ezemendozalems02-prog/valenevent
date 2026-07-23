@@ -27,7 +27,7 @@ export function PhilosophySection() {
               <div 
                 className="relative aspect-square rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80')`,
                 }}
               />
             </div>
@@ -39,35 +39,36 @@ export function PhilosophySection() {
             inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
           )}>
             <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-4">
-              Filosofía AWAKEN
+              Nuestra Filosofía
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-8 leading-tight">
-              <span className="text-gradient">&quot;Como te enfrentas al hielo,</span>
+              <span className="text-gradient">&quot;Una vida correcta puede ser</span>
               <br />
-              <span className="text-foreground">te enfrentas a la vida.&quot;</span>
+              <span className="text-foreground">más peligrosa que una vida mala.&quot;</span>
             </h2>
-            
+
             <div className="flex flex-col gap-6 text-muted-foreground leading-relaxed">
               <p>
-                El hielo no es solo agua fría. Es un espejo que refleja cómo respondés 
-                ante la incomodidad, el miedo y lo desconocido. Es un maestro que te 
-                enseña sobre vos mismo en segundos lo que la vida tarda años en mostrarte.
+                Una vida mala genera movimiento. Una vida correcta genera conformidad.
+                No duele lo suficiente como para obligarte a cambiar, pero tampoco te
+                llena lo suficiente como para hacerte sentir plenamente viva.
               </p>
               <p>
-                Cuando aprendés a mantenerte presente y respirar conscientemente frente 
-                al frío extremo, desarrollás una capacidad que trasciende el agua helada: 
-                la habilidad de estar en calma cuando todo a tu alrededor parece caos.
+                Nadie te dice que está mal. Solo vos sabés que algo no termina de encajar.
+                Y como nadie lo ve, aprendés a convivir con un vacío que ya ni siquiera
+                sabés explicar.
               </p>
               <p>
-                Lo que descubrís en esos minutos de inmersión no se queda en la bañera 
-                de hielo. Se convierte en una forma de ser, de responder, de vivir.
+                Nosotras creemos otra cosa: existe una realidad mucho más grande, y cualquier
+                mujer puede empezar a construirla. El primer paso no es aprender más.
+                Es dejar de aceptar menos.
               </p>
             </div>
 
             {/* Quote card */}
             <div className="mt-10 p-6 rounded-xl glass-card border-l-4 border-primary">
               <p className="text-foreground italic">
-                &quot;El frío no te hace fuerte. El frío te revela la fortaleza que siempre tuviste.&quot;
+                &quot;Las oportunidades no aparecen antes de una decisión. Aparecen después.&quot;
               </p>
             </div>
           </div>

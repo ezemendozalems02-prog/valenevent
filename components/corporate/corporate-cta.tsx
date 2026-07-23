@@ -21,10 +21,10 @@ export function CorporateCTA() {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-            Llevemos el Bienestar a tu Organización
+            Llevemos Estás Para Más a tu Organización
           </h2>
           <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Conversemos sobre cómo podemos diseñar una experiencia a medida para tu equipo
+            Conversemos sobre cómo diseñar una edición a medida para tu equipo o comunidad
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -35,9 +35,9 @@ export function CorporateCTA() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href="mailto:empresas@awaken.com">
+              <a href="mailto:organizaciones@estasparamas.com">
                 <Mail className="mr-2 h-4 w-4" />
-                empresas@awaken.com
+                organizaciones@estasparamas.com
               </a>
             </Button>
           </div>

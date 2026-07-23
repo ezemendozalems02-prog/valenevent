@@ -8,7 +8,7 @@ export function ReservationHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&q=80')`,
           }}
         />
         <div className="absolute top-1/3 right-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[100px] animate-breathe z-5" />
@@ -17,16 +17,16 @@ export function ReservationHero() {
       <div className="relative z-20 container mx-auto px-4 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-6">
-            Reserva
+            Quiero Mi Lugar
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="text-foreground">Reservá tu</span>
+            <span className="text-foreground">Esta puede ser</span>
             <br />
-            <span className="text-gradient">lugar</span>
+            <span className="text-gradient">tu decisión</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Completá el formulario y nos pondremos en contacto para confirmar tu reserva. 
-            Cupos limitados para cuidar la calidad del espacio.
+            Completá el formulario y nos pondremos en contacto para confirmar tu lugar.
+            Cupo limitado por diseño, no por estrategia de venta.
           </p>
         </div>
       </div>

@@ -7,22 +7,22 @@ import { Quote, ArrowRight } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "La inmersión en hielo fue el momento más transformador de mi vida. Descubrí una fortaleza interior que no sabía que tenía.",
+    quote: "Sentí que la página, el evento, todo, había sido escrito para mí. Ese día dejé de esperar el momento perfecto para empezar.",
     author: "María García",
     role: "Emprendedora",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
   },
   {
-    quote: "Llegué buscando calma y encontré una conexión profunda conmigo mismo. El breathwork cambió mi forma de respirar y de vivir.",
-    author: "Lucas Fernández",
-    role: "Atleta profesional",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+    quote: "Yo tenía una vida que estaba bien. Recién ahí entendí que ese era exactamente el problema. Volví a casa y ya no pude mirar mi vida con los mismos ojos.",
+    author: "Julieta Fernández",
+    role: "Abogada",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80",
   },
   {
-    quote: "Una experiencia que todos deberían vivir al menos una vez. Sales siendo otra persona, más presente y más viva.",
+    quote: "No salí motivada, salí distinta. Fue el día en que dejé de conformarme, y todo lo que cambió después empezó ahí.",
     author: "Carolina Ruiz",
-    role: "Terapeuta holística",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80",
+    role: "Diseñadora",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
   },
 ]
 
@@ -45,11 +45,11 @@ export function TestimonialsSection() {
           inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           <span className="inline-block text-xs sm:text-sm text-primary tracking-[0.2em] uppercase mb-3 sm:mb-4">
-            Testimonios
+            Historias
           </span>
           <h2 className="mobile-heading-md font-bold text-foreground mb-0 text-balance">
-            Lo que se llevan{" "}
-            <span className="text-gradient">quienes lo viven</span>
+            Mujeres que dejaron{" "}
+            <span className="text-gradient">de conformarse</span>
           </h2>
         </div>
 
@@ -96,7 +96,7 @@ export function TestimonialsSection() {
             href="/testimonios" 
             className="inline-flex items-center gap-2 text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Ver más testimonios
+            Ver más historias
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform hidden sm:block sm:w-4 sm:h-4" />
           </Link>
         </div>

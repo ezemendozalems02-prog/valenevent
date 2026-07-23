@@ -5,8 +5,8 @@ import { ReservationHero } from "@/components/reservation/reservation-hero"
 import { ReservationForm } from "@/components/reservation/reservation-form"
 
 export const metadata = {
-  title: "Reservar | AWAKEN",
-  description: "Reserva tu lugar para la próxima experiencia AWAKEN. Cupos limitados.",
+  title: "Quiero Mi Lugar | Estás Para Más",
+  description: "Asegurá tu lugar en la próxima edición de Estás Para Más.",
 }
 
 export default function ReservationPage() {

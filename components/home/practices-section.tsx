@@ -2,38 +2,38 @@
 
 import { useInView } from "react-intersection-observer"
 import { cn } from "@/lib/utils"
-import { Wind, Snowflake, Brain, Music, Activity, Sparkles } from "lucide-react"
+import { Eye, Compass, Sparkles, Users, Gem, Flame } from "lucide-react"
 
 const practices = [
   {
-    icon: Wind,
-    title: "Breathwork",
-    description: "Técnicas de respiración consciente para liberar tensiones, expandir tu capacidad pulmonar y acceder a estados de consciencia elevados.",
+    icon: Eye,
+    title: "La Verdad",
+    description: "El primer paso no es aprender más: es animarte a decirte la verdad. Poner en palabras eso que venís sintiendo hace tiempo y que nadie más ve desde afuera.",
   },
   {
-    icon: Snowflake,
-    title: "Inmersión en Hielo",
-    description: "Sumérgete en agua helada y descubre tu fortaleza interior. Un portal hacia la superación de límites mentales y el despertar de tu energía vital.",
-  },
-  {
-    icon: Brain,
-    title: "Meditación",
-    description: "Prácticas guiadas para aquietar la mente, encontrar claridad y conectar con tu esencia más profunda en un estado de presencia plena.",
-  },
-  {
-    icon: Music,
-    title: "Sound Journey",
-    description: "Un viaje sonoro inmersivo con cuencos tibetanos, gongs y frecuencias sanadoras que te transportan a estados de relajación profunda.",
-  },
-  {
-    icon: Activity,
-    title: "Body Reset",
-    description: "Movimiento consciente y liberación somática para resetear tu sistema nervioso y reconectar con la sabiduría de tu cuerpo.",
+    icon: Compass,
+    title: "La Decisión",
+    description: "Ninguna transformación importante empezó cuando todo estuvo resuelto. Todas empezaron cuando alguien decidió dejar de esperar. Acá se toma esa decisión.",
   },
   {
     icon: Sparkles,
-    title: "Integración Consciente",
-    description: "El momento de integrar las experiencias vividas, dar sentido a las sensaciones y anclar los aprendizajes en tu vida cotidiana.",
+    title: "La Expansión",
+    description: "Dejar de vivir dentro de los límites de la persona que fuiste hasta hoy. Pensar más grande, elegir más grande, permitirte ocupar un lugar más grande.",
+  },
+  {
+    icon: Gem,
+    title: "La Identidad",
+    description: "Una identidad no se encuentra: se construye. Aparece cada vez que tomás decisiones alineadas con la mujer que querés ser.",
+  },
+  {
+    icon: Users,
+    title: "La Comunidad",
+    description: "Ninguna transformación importante ocurre completamente sola. Una mujer que ve a otra vivir con valentía entiende que ella también puede hacerlo.",
+  },
+  {
+    icon: Flame,
+    title: "La Acción",
+    description: "El conocimiento no transforma: las decisiones sí. Te vas del evento con una dirección clara, no con una carpeta de apuntes.",
   },
 ]
 
@@ -56,14 +56,14 @@ export function PracticesSection() {
           inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           <span className="inline-block text-xs sm:text-sm text-primary tracking-[0.2em] uppercase mb-3 sm:mb-4">
-            Las Prácticas
+            Los Pilares
           </span>
           <h2 className="mobile-heading-md font-bold text-foreground mb-4 sm:mb-6 text-balance">
-            Un viaje a través de{" "}
-            <span className="text-gradient">múltiples dimensiones</span>
+            No es un evento.{" "}
+            <span className="text-gradient">Es una decisión.</span>
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-            Cada práctica está diseñada para complementarse y crear una experiencia holística.
+            No vendemos información. Cada momento del día está diseñado alrededor de una sola idea: existe una vida mucho más grande de la que hoy creés posible.
           </p>
         </div>
 

@@ -8,7 +8,7 @@ export function FAQHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&q=80')`,
           }}
         />
         <div className="absolute top-1/3 left-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[100px] animate-breathe z-5" />
@@ -25,8 +25,8 @@ export function FAQHero() {
             <span className="text-gradient">Frecuentes</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Todo lo que necesitas saber antes de vivir tu primera experiencia AWAKEN. 
-            Si tu pregunta no está aquí, no dudes en contactarnos.
+            Todo lo que necesitás saber antes de vivir Estás Para Más,
+            respondido con honestidad. Si tu pregunta no está acá, escribinos.
           </p>
         </div>
       </div>

@@ -4,15 +4,15 @@ import { Instagram, Mail, Phone, MapPin } from "lucide-react"
 const footerLinks = {
   experiencia: [
     { href: "/experiencia", label: "La Experiencia" },
-    { href: "/beneficios", label: "Beneficios" },
-    { href: "/agenda", label: "Agenda" },
-    { href: "/facilitadores", label: "Facilitadores" },
+    { href: "/beneficios", label: "El Movimiento" },
+    { href: "/agenda", label: "El Día" },
+    { href: "/facilitadores", label: "Quién Te Guía" },
   ],
   eventos: [
-    { href: "/eventos", label: "Próximos Eventos" },
-    { href: "/testimonios", label: "Testimonios" },
+    { href: "/eventos", label: "Próxima Edición" },
+    { href: "/testimonios", label: "Historias" },
     { href: "/galeria", label: "Galería" },
-    { href: "/empresas", label: "Eventos Privados" },
+    { href: "/corporativo", label: "Eventos Privados" },
   ],
   info: [
     { href: "/faq", label: "Preguntas Frecuentes" },
@@ -33,15 +33,15 @@ export function Footer() {
           <div className="col-span-2 sm:col-span-1">
             <Link href="/" className="inline-block">
               <span className="text-xl sm:text-2xl md:text-3xl font-bold tracking-[0.2em] text-foreground">
-                AWAKEN
+                ESTÁS PARA MÁS
               </span>
             </Link>
             <p className="mt-2 sm:mt-4 text-xs sm:text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Experiencias inmersivas de breathwork, inmersión en hielo y meditación.
+              Una experiencia de expansión de identidad para mujeres que saben que su vida puede ser más grande.
             </p>
             <div className="flex items-center gap-2 sm:gap-4 mt-4 sm:mt-6">
               <a
-                href="https://instagram.com/awaken"
+                href="https://instagram.com/estasparamas"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 sm:p-3 rounded-full bg-secondary hover:bg-primary/20 text-muted-foreground hover:text-primary transition-all duration-300 touch-target"
@@ -59,7 +59,7 @@ export function Footer() {
                 <Phone size={16} className="sm:w-5 sm:h-5" />
               </a>
               <a
-                href="mailto:info@awaken.com"
+                href="mailto:hola@estasparamas.com"
                 className="p-2 sm:p-3 rounded-full bg-secondary hover:bg-primary/20 text-muted-foreground hover:text-primary transition-all duration-300 touch-target"
                 aria-label="Email"
               >
@@ -133,10 +133,10 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-8 sm:mt-12 md:mt-16 pt-6 sm:pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
           <p className="text-xs text-muted-foreground order-2 sm:order-1">
-            &copy; {new Date().getFullYear()} AWAKEN.
+            &copy; {new Date().getFullYear()} Estás Para Más.
           </p>
           <p className="text-xs text-muted-foreground order-1 sm:order-2">
-            Despierta. Expande. Transforma.
+            Hay una forma de vivir que hoy todavía no conocés.
           </p>
         </div>
       </div>

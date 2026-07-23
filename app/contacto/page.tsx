@@ -5,8 +5,8 @@ import { ContactHero } from "@/components/contact/contact-hero"
 import { ContactSection } from "@/components/contact/contact-section"
 
 export const metadata = {
-  title: "Contacto | AWAKEN",
-  description: "Contacta con AWAKEN. Estamos para responder tus consultas sobre experiencias inmersivas de transformación.",
+  title: "Contacto | Estás Para Más",
+  description: "Escribinos. Estamos para responder tus consultas sobre la experiencia Estás Para Más.",
 }
 
 export default function ContactPage() {

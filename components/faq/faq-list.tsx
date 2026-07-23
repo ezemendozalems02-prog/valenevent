@@ -14,44 +14,44 @@ import {
 
 const faqCategories = [
   {
-    category: "Antes de la Experiencia",
+    category: "Sobre la Experiencia",
     questions: [
       {
-        question: "¿Necesito experiencia previa?",
-        answer: "No, no necesitas ninguna experiencia previa. La experiencia está diseñada para todos los niveles, desde principiantes hasta personas con experiencia en prácticas de respiración o frío. Te guiamos paso a paso y respetamos tu ritmo personal en todo momento.",
+        question: "¿Qué es exactamente Estás Para Más?",
+        answer: "Es una experiencia presencial de un día, diseñada para mujeres. No es un congreso ni una charla motivacional: es una jornada pensada para que dejes de aceptar una vida que sabés que no te representa y tomes una decisión concreta sobre la que querés construir.",
       },
       {
-        question: "¿Qué tengo que llevar?",
-        answer: "Solo necesitas traer: traje de baño, toalla personal (opcional, nosotros también proporcionamos), ropa cómoda para antes y después de la experiencia, y lo más importante: una mente abierta y disposición para la transformación. Nosotros proporcionamos hidratación, snacks saludables y todos los elementos necesarios.",
+        question: "¿Es un evento de desarrollo personal?",
+        answer: "No en el sentido tradicional. No creemos en acumular libros, cursos y frases inspiradoras si la vida sigue siendo la misma. Es una experiencia de expansión de identidad: no te vas con más información, te vas con una decisión.",
       },
       {
-        question: "¿Hay alguna contraindicación médica?",
-        answer: "La inmersión en hielo no está recomendada para personas con: enfermedades cardíacas no controladas, presión arterial muy alta o muy baja, epilepsia no controlada, embarazo, o infecciones activas. Si tenés alguna condición médica, te recomendamos consultar con tu médico y comunicárnoslo antes del evento.",
+        question: "¿Y si mi vida ya está bien?",
+        answer: "Justamente. Estás Para Más no es para mujeres que están mal: es para mujeres que tienen una vida correcta —estable, aprobada por todos— y que en silencio saben que no las representa del todo. Si esa frase te resonó, es para vos.",
       },
       {
-        question: "¿Cómo me preparo para la experiencia?",
-        answer: "Te recomendamos: evitar comidas pesadas 2-3 horas antes, llegar descansado/a, mantener una hidratación adecuada durante el día, y venir con ropa cómoda. También te enviamos un email con información detallada después de tu reserva.",
+        question: "¿Necesito preparación previa?",
+        answer: "Ninguna. No hay requisitos, ni tareas previas, ni niveles. Solo necesitás disposición para decirte la verdad. Todo lo demás sucede durante el día.",
       },
     ],
   },
   {
-    category: "Durante la Experiencia",
+    category: "Durante el Día",
     questions: [
       {
-        question: "¿Es seguro entrar al hielo?",
-        answer: "Sí, completamente. La inmersión se realiza de forma gradual y controlada, con facilitadores certificados presentes en todo momento. Antes de entrar, preparamos tu cuerpo y mente con técnicas de respiración. El tiempo de inmersión es personalizado según tu nivel y comodidad.",
+        question: "¿Tengo que hablar o compartir mi historia frente a otras?",
+        answer: "No. Nadie te va a exponer ni presionar. Hay dinámicas individuales y momentos en comunidad, pero todo lo que trabajás es tuyo: compartís únicamente lo que elijas compartir.",
       },
       {
-        question: "¿Cuánto tiempo dura la inmersión en hielo?",
-        answer: "La inmersión típica dura entre 2 y 5 minutos, pero esto varía según cada persona. No hay presión para quedarte más tiempo del que te sientas cómodo/a. Algunos participantes hacen inmersiones más cortas y otros más largas. Lo importante es tu experiencia, no el tiempo.",
+        question: "¿Voy a estar cómoda si voy sola?",
+        answer: "La mayoría de las mujeres llega sola. El espacio está diseñado para que desde el primer momento te sientas parte, no espectadora. Muchas se van con vínculos que siguen mucho después del evento.",
       },
       {
-        question: "¿Puedo asistir si me da miedo el hielo?",
-        answer: "¡Absolutamente! De hecho, muchas personas vienen precisamente para superar ese miedo. El trabajo previo de breathwork te prepara mental y físicamente. El frío se convierte en una herramienta de transformación. Nuestros facilitadores están capacitados para acompañarte si sentís miedo o ansiedad.",
+        question: "¿Cómo es el lugar?",
+        answer: "Un salón premium, cuidado hasta el último detalle: la luz, la ambientación, la comida, los tiempos. Nada está improvisado, porque la estética también comunica: entrás a un lugar donde todo invita a respirar más profundo.",
       },
       {
-        question: "¿Qué pasa si nunca hice breathwork?",
-        answer: "No te preocupes, la técnica se explica claramente al inicio y te guiamos durante toda la sesión. El breathwork que hacemos es accesible para todos. La clave es seguir las indicaciones y dejarte llevar por el proceso.",
+        question: "¿Quién guía la experiencia?",
+        answer: "Valentina, creadora de Estás Para Más. Pero la protagonista del día no es ella: sos vos. Valentina facilita el proceso; las decisiones las tomás vos.",
       },
     ],
   },
@@ -59,37 +59,37 @@ const faqCategories = [
     category: "Logística y Reservas",
     questions: [
       {
-        question: "¿Cuánto dura la experiencia completa?",
-        answer: "La experiencia completa dura aproximadamente 4 horas (de 15:00 a 19:00 hs en eventos regulares). Esto incluye bienvenida, breathwork, inmersión en hielo, integración, sound journey y cierre. Te recomendamos no programar nada importante para después, así podés integrar la experiencia con calma.",
+        question: "¿Cuánto dura la experiencia?",
+        answer: "Es una jornada completa, de 9:00 a 19:00 hs aproximadamente, con pausas, almuerzo y momentos de encuentro incluidos. Te recomendamos no agendar nada para después: vas a querer llegar a casa con calma.",
       },
       {
         question: "¿Hay cupos limitados?",
-        answer: "Sí, mantenemos grupos reducidos de máximo 15 personas por experiencia para garantizar una atención personalizada y un espacio seguro. Te recomendamos reservar con anticipación ya que las fechas suelen completarse.",
+        answer: "Sí. El cupo está limitado por el diseño de la experiencia, no como táctica de venta: queremos que cada mujer viva el día como fue pensado. Si la fecha que querés está completa, podés anotarte para la siguiente edición.",
       },
       {
         question: "¿Cómo reservo mi lugar?",
-        answer: "Podés reservar a través del formulario en nuestra web o contactándonos directamente por WhatsApp. Te pedimos una seña para confirmar tu lugar y el resto lo podés abonar el día del evento o antes.",
+        answer: "A través del formulario de la web o directamente por WhatsApp. Confirmás tu lugar con una seña y el resto lo abonás antes del evento.",
       },
       {
         question: "¿Qué pasa si no puedo asistir después de reservar?",
-        answer: "Entendemos que pueden surgir imprevistos. Si avisás con más de 72 horas de anticipación, podemos reprogramar tu lugar para otra fecha. Si avisás con menos tiempo, evaluamos cada caso individualmente. Siempre buscamos la mejor solución para ambas partes.",
+        answer: "Pueden surgir imprevistos, lo entendemos. Si avisás con más de 72 horas de anticipación, reprogramamos tu lugar para otra edición. Con menos tiempo, evaluamos cada caso individualmente y buscamos la mejor solución.",
       },
     ],
   },
   {
-    category: "Después de la Experiencia",
+    category: "Después del Evento",
     questions: [
       {
-        question: "¿Qué beneficios puedo sentir?",
-        answer: "Los beneficios varían según cada persona, pero comúnmente se reportan: mayor claridad mental, sensación de energía renovada, mejor manejo del estrés, mayor presencia y enfoque, liberación emocional, sensación de logro y confianza. Muchos beneficios se intensifican en los días posteriores.",
+        question: "¿Con qué me voy a ir?",
+        answer: "Con una decisión tomada, una dirección clara y un material de trabajo que es tuyo. No prometemos cambiarte la vida en un día: prometemos ser el punto de inflexión que marque el comienzo de ese cambio.",
       },
       {
-        question: "¿Hay algún cuidado especial después?",
-        answer: "Te recomendamos: mantener una buena hidratación, descansar si tu cuerpo lo pide, evitar entrenamientos muy intensos el mismo día, y darte tiempo para integrar la experiencia. También te compartimos material de integración y prácticas que podés hacer en casa.",
+        question: "¿El evento termina cuando termina el día?",
+        answer: "No: empieza ahí. Pasás a formar parte de la comunidad Estás Para Más, una red de mujeres que se ven, se escuchan, se sostienen y se celebran. Porque ninguna transformación importante ocurre completamente sola.",
       },
       {
-        question: "¿Se puede hacer de forma privada o para grupos?",
-        answer: "¡Sí! Ofrecemos experiencias privadas para grupos, equipos de trabajo, eventos corporativos y retiros. Diseñamos la experiencia a medida según tus necesidades. Contactanos para más información sobre experiencias privadas.",
+        question: "¿Se puede llevar la experiencia a una empresa o comunidad?",
+        answer: "Sí. Hacemos ediciones privadas para organizaciones y comunidades de mujeres, diseñadas a medida. Escribinos y lo conversamos.",
       },
     ],
   },
@@ -152,7 +152,7 @@ export function FAQList() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/5491112345678?text=Hola!%20Tengo%20una%20consulta%20sobre%20AWAKEN"
+                href="https://wa.me/5491112345678?text=Hola!%20Tengo%20una%20consulta%20sobre%20Estás%20Para%20Más"
                 target="_blank"
                 rel="noopener noreferrer"
               >

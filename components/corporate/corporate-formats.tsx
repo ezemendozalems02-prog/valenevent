@@ -7,48 +7,48 @@ import { Button } from '@/components/ui/button'
 
 const formats = [
   {
-    name: 'Sesión Express',
+    name: 'Encuentro Express',
     duration: '2-3 horas',
-    participants: '10-30 personas',
-    location: 'En tus oficinas',
-    description: 'Ideal para jornadas de bienestar o team building',
+    participants: '10-30 mujeres',
+    location: 'En tu espacio',
+    description: 'Una primera aproximación a la filosofía de Estás Para Más',
     features: [
-      'Sesión de breathwork guiada',
-      'Técnicas de manejo del estrés',
-      'Herramientas prácticas para el día a día',
-      'Material de seguimiento digital',
+      'Charla-experiencia guiada por Valentina',
+      'Dinámica de reflexión grupal',
+      'Espacio de preguntas abiertas',
+      'Material de reflexión para llevar',
     ],
     highlighted: false,
   },
   {
-    name: 'Experiencia Completa',
-    duration: 'Medio día (4-5h)',
-    participants: '15-50 personas',
+    name: 'Edición Privada',
+    duration: 'Jornada completa (8-9h)',
+    participants: '15-100 mujeres',
     location: 'Espacio exclusivo',
-    description: 'La experiencia AWAKEN completa para tu equipo',
+    description: 'La experiencia Estás Para Más completa, solo para tu comunidad',
     features: [
-      'Breathwork avanzado',
-      'Inmersión en hielo grupal',
-      'Meditación guiada',
-      'Círculo de cierre e integración',
-      'Refrigerio saludable incluido',
-      'Seguimiento post-experiencia',
+      'Recorrido completo: la verdad, la decisión, la expansión',
+      'Dinámicas individuales y grupales',
+      'Círculo de cierre y comunidad',
+      'Almuerzo y bebidas incluidos',
+      'Material de trabajo exclusivo',
+      'Acompañamiento posterior al evento',
     ],
     highlighted: true,
   },
   {
-    name: 'Retiro Corporativo',
-    duration: '1-2 días',
-    participants: '20-100 personas',
+    name: 'Ciclo Extendido',
+    duration: '2 encuentros',
+    participants: '20-100 mujeres',
     location: 'Venue a elección',
-    description: 'Transformación profunda para equipos de alto rendimiento',
+    description: 'Para organizaciones que buscan sostener el cambio en el tiempo',
     features: [
-      'Programa personalizado',
-      'Múltiples sesiones de prácticas',
-      'Workshops de liderazgo consciente',
-      'Actividades de team building',
-      'Alojamiento y comidas',
-      'Coaching ejecutivo opcional',
+      'Edición privada completa',
+      'Encuentro de seguimiento a los 60-90 días',
+      'Espacio de comunidad continuo',
+      'Materiales personalizados por organización',
+      'Reunión de diseño previa con el equipo',
+      'Reporte cualitativo posterior',
     ],
     highlighted: false,
   },
@@ -69,10 +69,10 @@ export function CorporateFormats() {
             Formatos
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-4 mb-6 text-balance">
-            Adaptamos la Experiencia a tu Empresa
+            Adaptamos la Experiencia a tu Organización
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Desde sesiones express hasta retiros transformacionales
+            Desde un primer encuentro hasta un ciclo completo de acompañamiento
           </p>
         </motion.div>
 
@@ -133,7 +133,7 @@ export function CorporateFormats() {
                 variant={format.highlighted ? 'default' : 'outline'}
               >
                 <Link href="/contacto">
-                  Solicitar Información
+                  Conversemos
                 </Link>
               </Button>
             </motion.div>

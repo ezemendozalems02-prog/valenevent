@@ -25,28 +25,28 @@ export function AboutSection() {
             inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
           )}>
             <span className="inline-block text-xs sm:text-sm text-primary tracking-[0.2em] uppercase mb-3 sm:mb-4">
-              Qué es AWAKEN
+              Qué es Estás Para Más
             </span>
             <h2 className="mobile-heading-md font-bold text-foreground mb-4 sm:mb-6 leading-tight text-balance">
-              Una experiencia inmersiva de{" "}
-              <span className="text-gradient">transformación interior</span>
+              El día en que dejás de aceptar{" "}
+              <span className="text-gradient">una vida correcta</span>
             </h2>
             <div className="flex flex-col gap-4 sm:gap-6 text-xs sm:text-sm text-muted-foreground leading-relaxed">
               <p>
-                AWAKEN es mucho más que un evento: es un viaje profundo hacia tu interior. Una experiencia cuidadosamente diseñada que combina el poder de la respiración consciente, la inmersión en hielo y la meditación.
+                Estás Para Más no es un evento de desarrollo personal. Es una experiencia de expansión de identidad: un día diseñado para que dejes de vivir por inercia y empieces a vivir por elección.
               </p>
               <p className="hidden sm:block">
-                En un espacio seguro y contenido, te guiamos a través de un proceso de reconexión con tu cuerpo, mente y espíritu. Aquí, cada respiración se convierte en una herramienta de liberación.
+                No venimos a enseñarte quién podés ser. Venimos a ayudarte a dejar de aceptar una vida que ya sabés que no te representa. Porque las oportunidades no aparecen antes de la decisión: aparecen después.
               </p>
             </div>
 
             {/* Features */}
             <div className="grid grid-cols-2 gap-2 sm:gap-4 mt-6 sm:mt-8">
               {[
-                { icon: Sparkles, text: "Expansión consciente" },
-                { icon: Heart, text: "Conexión profunda" },
-                { icon: Brain, text: "Claridad mental" },
-                { icon: Zap, text: "Energía renovada" },
+                { icon: Sparkles, text: "Expansión de identidad" },
+                { icon: Heart, text: "Comunidad femenina" },
+                { icon: Brain, text: "Verdad antes que comodidad" },
+                { icon: Zap, text: "Una decisión, no una charla" },
               ].map((item, index) => (
                 <div 
                   key={index}
@@ -73,15 +73,15 @@ export function AboutSection() {
                 <div 
                   className="aspect-[4/5] rounded-lg sm:rounded-xl bg-cover bg-center"
                   style={{
-                    backgroundImage: `url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80')`,
+                    backgroundImage: `url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&q=80')`,
                   }}
                 />
               </div>
 
               {/* Floating card - optimized for mobile */}
               <div className="absolute -bottom-4 sm:-bottom-6 -left-4 sm:-left-6 glass p-3 sm:p-4 rounded-lg sm:rounded-xl max-w-[160px] sm:max-w-[200px] animate-float text-xs sm:text-sm">
-                <div className="text-lg sm:text-2xl font-bold text-gradient">4+ horas</div>
-                <div className="text-xs sm:text-sm text-muted-foreground line-clamp-2">de transformación</div>
+                <div className="text-lg sm:text-2xl font-bold text-gradient">Un antes</div>
+                <div className="text-xs sm:text-sm text-muted-foreground line-clamp-2">y un después</div>
               </div>
 
               {/* Decorative element - hidden on mobile for performance */}

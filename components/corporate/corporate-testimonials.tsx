@@ -5,21 +5,21 @@ import { Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: 'La experiencia AWAKEN transformó la dinámica de nuestro equipo. Vimos mejoras inmediatas en la comunicación y el manejo del estrés.',
+    quote: 'Llevamos Estás Para Más a nuestro equipo de liderazgo femenino y el cambio fue inmediato: conversaciones más honestas, decisiones más rápidas.',
     author: 'María González',
     role: 'Directora de RRHH',
     company: 'Tech Solutions',
     logo: '/logos/company1.svg',
   },
   {
-    quote: 'Después del retiro corporativo, la productividad de nuestro equipo de ventas aumentó un 30%. Una inversión que vale cada peso.',
-    author: 'Carlos Mendoza',
+    quote: 'No fue un team building más. Fue el primer espacio donde nuestras colaboradoras hablaron de lo que realmente les pasa. Eso no tiene precio.',
+    author: 'Carla Mendoza',
     role: 'CEO',
     company: 'Innovate Labs',
     logo: '/logos/company2.svg',
   },
   {
-    quote: 'Nuestros colaboradores siguen usando las técnicas de respiración meses después. El impacto fue duradero y significativo.',
+    quote: 'Meses después, las mujeres del equipo siguen mencionando esa jornada como un punto de quiebre. El impacto fue real y duradero.',
     author: 'Ana Rodríguez',
     role: 'Gerente de Bienestar',
     company: 'Global Finance',
@@ -39,10 +39,10 @@ export function CorporateTestimonials() {
           className="text-center mb-16"
         >
           <span className="text-primary font-medium tracking-widest uppercase text-sm">
-            Testimonios Corporativos
+            Ediciones Privadas
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-4 mb-6 text-balance">
-            Empresas que Confían en AWAKEN
+            Organizaciones que ya vivieron Estás Para Más
           </h2>
         </motion.div>
 

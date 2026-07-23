@@ -7,8 +7,8 @@ import { WhatsIncluded } from "@/components/agenda/whats-included"
 import { CTASection } from "@/components/home/cta-section"
 
 export const metadata = {
-  title: "Agenda | AWAKEN",
-  description: "Conoce el cronograma detallado de una experiencia AWAKEN. Cada momento está diseñado para tu transformación.",
+  title: "El Día | Estás Para Más",
+  description: "Cómo se vive un día de Estás Para Más. Un recorrido diseñado para que tomes la decisión que venís postergando.",
 }
 
 export default function AgendaPage() {

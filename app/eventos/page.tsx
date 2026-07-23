@@ -6,8 +6,8 @@ import { EventsGrid } from "@/components/events/events-grid"
 import { CTASection } from "@/components/home/cta-section"
 
 export const metadata = {
-  title: "Próximos Eventos | AWAKEN",
-  description: "Conoce las próximas experiencias AWAKEN. Reserva tu lugar para vivir una transformación guiada.",
+  title: "Próxima Edición | Estás Para Más",
+  description: "Conocé las próximas ediciones de Estás Para Más y asegurá tu lugar.",
 }
 
 export default function EventsPage() {

@@ -6,45 +6,45 @@ import { Brain, Heart, Users, Zap, TrendingUp, Shield } from 'lucide-react'
 const benefits = [
   {
     icon: Brain,
-    title: 'Claridad Mental',
-    description: 'Mejora la concentración y toma de decisiones de tu equipo',
-    stat: '40%',
-    statLabel: 'mejor enfoque',
+    title: 'Claridad de Dirección',
+    description: 'Mujeres que dejan de reaccionar y empiezan a elegir, dentro y fuera del trabajo',
+    stat: '01',
+    statLabel: 'pilar',
   },
   {
     icon: Heart,
-    title: 'Reducción del Estrés',
-    description: 'Técnicas comprobadas para manejar la presión laboral',
-    stat: '65%',
-    statLabel: 'menos ansiedad',
+    title: 'Conversaciones Reales',
+    description: 'Un espacio de verdad, sin poses ni discursos corporativos',
+    stat: '02',
+    statLabel: 'pilar',
   },
   {
     icon: Users,
-    title: 'Cohesión de Equipo',
-    description: 'Experiencias compartidas que fortalecen vínculos',
-    stat: '80%',
-    statLabel: 'mejor comunicación',
+    title: 'Vínculos Genuinos',
+    description: 'Una experiencia compartida que une más que cualquier team building',
+    stat: '03',
+    statLabel: 'pilar',
   },
   {
     icon: Zap,
-    title: 'Energía Sostenida',
-    description: 'Herramientas para mantener alto rendimiento',
-    stat: '50%',
-    statLabel: 'más energía',
+    title: 'Protagonismo',
+    description: 'Cada participante se va con una decisión propia, no con consignas ajenas',
+    stat: '04',
+    statLabel: 'pilar',
   },
   {
     icon: TrendingUp,
-    title: 'Productividad',
-    description: 'Equipos más presentes y comprometidos',
-    stat: '35%',
-    statLabel: 'más productivos',
+    title: 'Expansión de Identidad',
+    description: 'Pensar más grande: la pregunta no es qué lograr, sino quién elegir ser',
+    stat: '05',
+    statLabel: 'pilar',
   },
   {
     icon: Shield,
-    title: 'Resiliencia',
-    description: 'Capacidad de adaptación ante desafíos',
-    stat: '70%',
-    statLabel: 'más resilientes',
+    title: 'Comunidad que Sostiene',
+    description: 'El efecto no termina con la jornada: empieza ahí',
+    stat: '06',
+    statLabel: 'pilar',
   },
 ]
 
@@ -63,10 +63,10 @@ export function CorporateBenefits() {
             Beneficios
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-4 mb-6 text-balance">
-            Resultados Medibles para tu Organización
+            Lo que una edición privada le deja a tu organización
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Inversión en bienestar con retorno tangible en productividad y satisfacción
+            Sin promesas infladas ni métricas inventadas: una experiencia real, con impacto real
           </p>
         </motion.div>
 

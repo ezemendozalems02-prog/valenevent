@@ -5,27 +5,24 @@ import { cn } from "@/lib/utils"
 import { Check, X } from "lucide-react"
 
 const included = [
-  "Facilitación guiada por profesionales certificados",
-  "Acceso a todas las prácticas: breathwork, hielo, meditación",
-  "Sound journey con instrumentos ancestrales",
-  "Espacio preparado y ambientado",
-  "Hidratación y snacks saludables",
-  "Toallas y elementos de confort",
-  "Material de integración para llevar",
-  "Acceso a comunidad AWAKEN",
+  "Jornada completa de la experiencia, guiada por Valentina",
+  "Espacio premium, preparado y ambientado",
+  "Almuerzo, café y estaciones de bebidas durante el día",
+  "Material de trabajo personal exclusivo del evento",
+  "Dinámicas individuales y en comunidad",
+  "Acceso a la comunidad Estás Para Más",
+  "Sorpresas pensadas para vos durante la jornada",
 ]
 
 const whatToBring = [
-  "Traje de baño",
-  "Toalla personal (opcional)",
-  "Ropa cómoda para antes y después",
-  "Mente abierta y disposición",
-  "Botella de agua (opcional)",
+  "Ropa con la que te sientas cómoda y vos",
+  "Algo para anotar (si preferís el papel)",
+  "Disposición para decirte la verdad",
 ]
 
 const notIncluded = [
   "Transporte al lugar del evento",
-  "Alimentación completa (solo snacks)",
+  "Alojamiento (para quienes viajan de otras ciudades)",
 ]
 
 export function WhatsIncluded() {

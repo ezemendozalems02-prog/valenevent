@@ -6,31 +6,13 @@ import { Instagram, Quote } from "lucide-react"
 
 const facilitators = [
   {
-    name: "Nahuel Martínez",
-    role: "Facilitador de Inmersión en Hielo",
-    bio: "Nahuel descubrió el poder transformador del frío hace más de 8 años durante un retiro en las montañas. Desde entonces, ha dedicado su vida a estudiar y compartir esta práctica ancestral con un enfoque moderno y consciente. Certificado en el Método Wim Hof y en técnicas de respiración avanzada, ha guiado a más de 500 personas en su encuentro con el hielo.",
-    focus: "Trabajo corporal, superación de límites mentales, expansión de la consciencia",
-    message: "El hielo no es el destino, es el camino. Cada inmersión es una oportunidad de conocerte un poco más.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
-    instagram: "@nahuel.ice",
-  },
-  {
-    name: "Luciana Vega",
-    role: "Guía de Breathwork y Meditación",
-    bio: "Luciana es facilitadora de respiración consciente y conexión interior con más de 10 años de experiencia. Formada en distintas tradiciones de pranayama, breathwork holotrópico y meditación, combina técnicas ancestrales con neurociencia moderna. Su pasión es crear espacios seguros donde las personas puedan soltar, sentir y reconectar con su esencia.",
-    focus: "Respiración consciente, liberación emocional, estados expandidos de consciencia",
-    message: "La respiración es el puente entre tu mundo interno y externo. Cuando aprendés a respirar conscientemente, aprendés a vivir plenamente.",
+    name: "Valentina",
+    role: "Creadora de Estás Para Más",
+    bio: "Valentina también tuvo una vida correcta: una vida estable, que desde afuera parecía suficiente y que todos aprobaban. Hasta que un día se animó a hacerse la pregunta que venía evitando: ¿esta vida realmente me representa? Estás Para Más nace de ese camino. No de una teoría, sino de la experiencia real de dejar de aceptar menos y construir una vida elegida conscientemente. Hoy su trabajo es abrir ese mismo espacio para otras mujeres.",
+    focus: "Expansión de identidad, decisiones conscientes, comunidad femenina",
+    message: "Mi trabajo no es que me sigas. Es que aprendas a confiar en vos misma, hasta que no me necesites para tomar decisiones.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
-    instagram: "@luciana.breath",
-  },
-  {
-    name: "Martín Sosa",
-    role: "Sound Healer y Músico",
-    bio: "Martín es músico, sound healer y explorador sonoro. Ha estudiado con maestros de Nepal, India y Perú, integrando tradiciones ancestrales en sus viajes sonoros. Con cuencos tibetanos, gongs, tambores y su voz, crea atmósferas inmersivas que facilitan estados profundos de relajación y autoexploración.",
-    focus: "Sound healing, frecuencias sanadoras, viajes sonoros",
-    message: "El sonido es vibración, y la vibración es vida. Cuando te rendís al sonido, te encontrás contigo mismo.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80",
-    instagram: "@martin.sound",
+    instagram: "@estasparamas",
   },
 ]
 

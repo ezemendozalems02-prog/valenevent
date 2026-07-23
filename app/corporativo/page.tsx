@@ -9,8 +9,8 @@ import { CorporateTestimonials } from '@/components/corporate/corporate-testimon
 import { CorporateCTA } from '@/components/corporate/corporate-cta'
 
 export const metadata: Metadata = {
-  title: 'Experiencias Corporativas | AWAKEN',
-  description: 'Transforma el bienestar de tu equipo con experiencias inmersivas de breathwork, hielo y meditación para empresas.',
+  title: 'Ediciones Privadas | Estás Para Más',
+  description: 'Llevá la experiencia Estás Para Más a tu organización. Ediciones privadas para equipos y comunidades de mujeres.',
 }
 
 export default function CorporatePage() {

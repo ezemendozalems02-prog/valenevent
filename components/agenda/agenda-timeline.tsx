@@ -2,57 +2,57 @@
 
 import { useInView } from "react-intersection-observer"
 import { cn } from "@/lib/utils"
-import { Heart, Wind, Snowflake, Coffee, Music, Sparkles } from "lucide-react"
+import { Heart, Wind, Coffee, Music, Sparkles, Compass, Sun } from "lucide-react"
 
 const schedule = [
   {
-    time: "15:00 - 15:30",
+    time: "Mañana",
     icon: Heart,
-    title: "Bienvenida y Apertura",
-    description: "Recepción en el espacio, presentaciones del grupo, establecimiento de acuerdos y apertura del espacio sagrado. Te guiamos para soltar el día y conectar con el momento presente.",
-    duration: "30 min",
+    title: "Bienvenida",
+    description: "Llegás a un espacio cuidado hasta el último detalle. Recepción, café y un ambiente que desde el primer minuto te invita a respirar más profundo.",
+    duration: "Apertura",
   },
   {
-    time: "15:30 - 16:00",
+    time: "Primer bloque",
     icon: Wind,
-    title: "Preparación y Grounding",
-    description: "Ejercicios de regulación del sistema nervioso, técnicas de respiración suave y establecimiento de intenciones personales. Preparamos tu cuerpo y mente para lo que viene.",
-    duration: "30 min",
+    title: "La Vida Correcta",
+    description: "El punto de partida: ponerle nombre a esa vida que funciona, que cumple, que todos aprueban, pero que no termina de representarte.",
+    duration: "Acto I",
   },
   {
-    time: "16:00 - 16:45",
-    icon: Wind,
-    title: "Breathwork Profundo",
-    description: "Sesión intensa de respiración consciente guiada. Trabajamos patrones respiratorios que liberan tensiones, expanden tu capacidad y te llevan a estados elevados de conciencia.",
-    duration: "45 min",
+    time: "Segundo bloque",
+    icon: Sun,
+    title: "La Verdad",
+    description: "Un espacio de honestidad radical con vos misma. Sin exposición, sin presión: lo que trabajás es tuyo y compartís solo lo que elijas.",
+    duration: "Acto II",
   },
   {
-    time: "16:45 - 17:30",
-    icon: Snowflake,
-    title: "Inmersión en Hielo",
-    description: "El momento cumbre. Preparación mental, entrada gradual al agua helada y permanencia consciente. Aplicás todo lo aprendido mientras descubrís tu fortaleza interior.",
-    duration: "45 min",
-  },
-  {
-    time: "17:30 - 18:00",
+    time: "Mediodía",
     icon: Coffee,
-    title: "Integración y Descanso",
-    description: "Espacio de calma para procesar la experiencia. Hidratación, snacks saludables y tiempo para que el cuerpo vuelva a su temperatura natural mientras integras lo vivido.",
-    duration: "30 min",
+    title: "Pausa y Encuentro",
+    description: "Almuerzo y conversación. Tiempo para conocer a las mujeres que están recorriendo el mismo camino que vos.",
+    duration: "Pausa",
   },
   {
-    time: "18:00 - 18:45",
+    time: "Tercer bloque",
+    icon: Compass,
+    title: "La Decisión",
+    description: "El momento central de la experiencia. Dejar de esperar el momento perfecto y elegir conscientemente la dirección de tu vida.",
+    duration: "Acto III",
+  },
+  {
+    time: "Cuarto bloque",
     icon: Music,
-    title: "Sound Journey",
-    description: "Viaje sonoro inmersivo con cuencos tibetanos, gongs y frecuencias sanadoras. Un espacio para relajarte profundamente y permitir que la experiencia se asiente.",
-    duration: "45 min",
+    title: "La Expansión",
+    description: "Diseñás tu vida elegida: qué tipo de mujer necesitás convertirte para construir la vida que soñás. La identidad primero, el resultado después.",
+    duration: "Acto IV",
   },
   {
-    time: "18:45 - 19:00",
+    time: "Cierre",
     icon: Sparkles,
-    title: "Cierre y Despedida",
-    description: "Círculo de cierre, compartir de experiencias y anclaje de aprendizajes. Nos despedimos con herramientas concretas para llevar esta transformación a tu vida diaria.",
-    duration: "15 min",
+    title: "La Comunidad",
+    description: "El cierre no es un final: es un comienzo. Te vas con una decisión tomada, una dirección clara y una comunidad que sostiene.",
+    duration: "Cierre",
   },
 ]
 

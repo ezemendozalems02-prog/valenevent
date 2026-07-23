@@ -7,33 +7,33 @@ import { User, Target, Heart, Lightbulb, Zap, Users } from "lucide-react"
 const audiences = [
   {
     icon: Heart,
-    title: "Buscadores de reconexión",
-    description: "Personas que sienten la necesidad de volver a conectar consigo mismas, con su cuerpo y sus emociones.",
-  },
-  {
-    icon: Target,
-    title: "Superadores de límites",
-    description: "Quienes desean atravesar sus límites mentales y descubrir de qué son realmente capaces.",
+    title: "La que vive una vida correcta",
+    description: "Una vida estable, que desde afuera parece suficiente, pero que en silencio sabe que no la representa del todo.",
   },
   {
     icon: Lightbulb,
-    title: "Gestores de estrés",
-    description: "Personas que buscan herramientas para manejar el estrés, la ansiedad y la presión del día a día.",
+    title: "La que se dice \"cuando tenga tiempo\"",
+    description: "La que viene postergando sus sueños esperando tener más plata, más confianza o estar más preparada.",
+  },
+  {
+    icon: Target,
+    title: "La que ya consumió de todo",
+    description: "Libros, cursos, podcasts. Le sobra información y aun así su vida sigue exactamente en el mismo lugar.",
   },
   {
     icon: Zap,
-    title: "Buscadores de expansión",
-    description: "Quienes están en un camino de crecimiento personal y buscan experiencias que aceleren su evolución.",
+    title: "La que quiere elegir, no reaccionar",
+    description: "La que está lista para dejar de esperar que algo cambie afuera y empezar a crear su propia realidad.",
   },
   {
     icon: User,
-    title: "Atletas y emprendedores",
-    description: "Profesionales de alto rendimiento que buscan optimizar su mente y cuerpo para lograr más.",
+    title: "La que confundió estabilidad con plenitud",
+    description: "La que aprendió a convivir con un vacío que ya ni siquiera sabe explicar, y piensa \"capaz la vida es esto\".",
   },
   {
     icon: Users,
-    title: "Personas en transición",
-    description: "Quienes atraviesan procesos de cambio y buscan claridad, fuerza y una nueva perspectiva.",
+    title: "La que no quiere hacerlo sola",
+    description: "La que busca una comunidad de mujeres que se vean, se escuchen, se sostengan y se celebren.",
   },
 ]
 
@@ -62,14 +62,14 @@ export function TargetAudience() {
               <span className="text-gradient">es para vos</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              No importa tu edad, condición física o experiencia previa. AWAKEN está 
-              diseñada para cualquier persona que sienta el llamado a explorar su 
-              interior y descubrir su verdadero potencial.
+              Estás Para Más no es para mujeres que están mal.
+              Es para mujeres que están demasiado conformes con una vida correcta.
+              Si alguna de estas frases te suena propia, esta experiencia fue pensada para vos.
             </p>
             <div 
               className="aspect-video rounded-2xl bg-cover bg-center overflow-hidden"
               style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80')`,
+                backgroundImage: `url('https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=800&q=80')`,
               }}
             />
           </div>

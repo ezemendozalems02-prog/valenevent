@@ -6,60 +6,60 @@ import { Quote, Star } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "La inmersión en hielo fue el momento más transformador de mi vida. Descubrí una fortaleza interior que no sabía que tenía. Llegué con miedo y salí sintiéndome invencible.",
+    quote: "Yo tenía la vida que se suponía que tenía que tener. Trabajo estable, todo en orden. Y un vacío que no sabía explicar. Ese día entendí que no estaba mal: estaba conforme. Y decidí dejar de estarlo.",
     author: "María García",
     role: "Emprendedora",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
-    transformation: "Superación del miedo",
+    transformation: "La decisión",
   },
   {
-    quote: "Llegué buscando calma y encontré una conexión profunda conmigo mismo. El breathwork cambió mi forma de respirar y de vivir. Ahora tengo herramientas para manejar el estrés que antes me desbordaba.",
-    author: "Lucas Fernández",
-    role: "Atleta profesional",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
-    transformation: "Gestión del estrés",
-  },
-  {
-    quote: "Una experiencia que todos deberían vivir al menos una vez. Sales siendo otra persona, más presente y más viva. La combinación de breathwork e hielo es poderosa.",
-    author: "Carolina Ruiz",
-    role: "Terapeuta holística",
+    quote: "Había hecho mil cursos y leído todos los libros. Me sobraba información y me faltaba una decisión. Acá no me dieron más contenido: me ayudaron a decirme la verdad.",
+    author: "Julieta Fernández",
+    role: "Abogada",
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80",
-    transformation: "Mayor presencia",
+    transformation: "La verdad",
   },
   {
-    quote: "Venía de un momento muy difícil en mi vida y AWAKEN me dio exactamente lo que necesitaba: un espacio para soltar, para sentir y para reconectarme con mi fuerza interior.",
-    author: "Sebastián Torres",
-    role: "Diseñador",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
-    transformation: "Liberación emocional",
+    quote: "No salí motivada, salí distinta. Volví a mi casa y ya no pude mirar mi vida con los mismos ojos. Todo lo que cambió en mi vida después empezó ese día.",
+    author: "Carolina Ruiz",
+    role: "Diseñadora",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+    transformation: "Un antes y un después",
   },
   {
-    quote: "Como CEO, vivo bajo presión constante. Esta experiencia me enseñó que puedo mantener la calma incluso en las situaciones más intensas. Una lección que aplico todos los días.",
+    quote: "Siempre pensé: cuando tenga más tiempo, cuando esté más preparada. Ese día entendí que no me faltaba tiempo, me faltaba decidir. Empecé al día siguiente.",
+    author: "Sofía Torres",
+    role: "Contadora",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+    transformation: "Dejar de esperar",
+  },
+  {
+    quote: "Lo que más me sorprendió fue el espacio: nada improvisado, todo pensado. No fue un evento más de esos con frases inspiradoras. Fue una conversación honesta conmigo misma.",
     author: "Victoria Méndez",
-    role: "CEO",
+    role: "Gerenta comercial",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
-    transformation: "Claridad bajo presión",
+    transformation: "Experiencia premium",
   },
   {
-    quote: "El sound journey después del hielo fue increíble. Sentí una paz que no había experimentado en años. Me fui con una sensación de energía renovada que duró semanas.",
-    author: "Andrés Molina",
-    role: "Músico",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
-    transformation: "Energía renovada",
-  },
-  {
-    quote: "Tenía pánico al frío. Literal. Y ahora puedo decir que el hielo es mi maestro. Lo que aprendí sobre mí misma en esos minutos de inmersión vale más que años de terapia.",
+    quote: "Ver a cien mujeres animándose a lo mismo que vos no se explica: se vive. Si una puede, todas podemos. Esa comunidad me sostiene hasta hoy.",
     author: "Florencia López",
     role: "Psicóloga",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
-    transformation: "Autoconocimiento",
+    image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80",
+    transformation: "La comunidad",
   },
   {
-    quote: "La comunidad que encontré en AWAKEN es increíble. No solo viví una experiencia transformadora, sino que hice amigos de por vida que comparten mi camino de crecimiento.",
-    author: "Nicolás Aguirre",
-    role: "Coach personal",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
-    transformation: "Conexión comunitaria",
+    quote: "Nadie me rescató, y eso fue lo mejor. Me fui sabiendo que la que tenía el poder de cambiar mi vida era yo. Responsabilidad como libertad: ahora lo entiendo.",
+    author: "Camila Aguirre",
+    role: "Docente",
+    image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80",
+    transformation: "Poder personal",
+  },
+  {
+    quote: "Fui con la expectativa baja, pensando que era otro evento de motivación. Me encontré con algo que no conocía: un lugar donde alguien puso en palabras exactamente lo que me pasaba.",
+    author: "Lucía Molina",
+    role: "Arquitecta",
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&q=80",
+    transformation: "Sentirse vista",
   },
 ]
 
@@ -80,10 +80,10 @@ export function TestimonialsGrid() {
           inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           {[
-            { value: "500+", label: "Experiencias vividas" },
-            { value: "98%", label: "Recomendaría AWAKEN" },
+            { value: "500+", label: "Mujeres en la comunidad" },
+            { value: "98%", label: "Lo recomendaría" },
             { value: "4.9", label: "Valoración promedio", icon: Star },
-            { value: "85%", label: "Repiten la experiencia" },
+            { value: "1", label: "Decisión que lo cambia todo" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="flex items-center justify-center gap-2">

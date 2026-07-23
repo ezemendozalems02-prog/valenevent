@@ -9,7 +9,7 @@ export function ExperienceHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1524601500432-1e1a4c71d692?w=1920&q=80')`,
           }}
         />
         {/* Animated glow */}
@@ -23,13 +23,13 @@ export function ExperienceHero() {
             La Experiencia
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="text-foreground">Más que un evento,</span>
+            <span className="text-foreground">No es un evento.</span>
             <br />
-            <span className="text-gradient">una transformación</span>
+            <span className="text-gradient">Es un antes y un después.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Un viaje profundo hacia tu interior donde cada respiración, cada momento de frío, 
-            cada instante de presencia te acerca más a tu verdadera esencia.
+            ¿Y si la vida que hoy considerás normal no fuera la vida que realmente querés vivir?
+            Esa pregunta es el verdadero comienzo de la experiencia.
           </p>
         </div>
       </div>

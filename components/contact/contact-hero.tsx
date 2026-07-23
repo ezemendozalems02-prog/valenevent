@@ -8,7 +8,7 @@ export function ContactHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1920&q=80')`,
           }}
         />
         <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-accent/15 rounded-full blur-[100px] animate-breathe z-5" />
@@ -23,7 +23,7 @@ export function ContactHero() {
             <span className="text-foreground">Hablemos</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Estamos para responder tus consultas, coordinar experiencias privadas 
+            Estamos para responder tus consultas, coordinar ediciones privadas
             o simplemente conectar.
           </p>
         </div>

@@ -29,12 +29,11 @@ export function NextEventSection() {
           inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         )}>
           <span className="inline-block text-xs sm:text-sm text-primary tracking-[0.2em] uppercase mb-3 sm:mb-4">
-            Próxima Experiencia
+            Próxima Edición
           </span>
           <h2 className="mobile-heading-md font-bold text-foreground mb-0 text-balance">
-            Tu momento de{" "}
-            <span className="text-gradient">transformación</span>{" "}
-            te espera
+            Quizás este sea el día en que{" "}
+            <span className="text-gradient">empieces a verla distinto</span>
           </h2>
         </div>
 
@@ -54,7 +53,7 @@ export function NextEventSection() {
                   <div 
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                      backgroundImage: `url('https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80')`,
+                      backgroundImage: `url('https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80')`,
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card/80 md:bg-gradient-to-r" />
@@ -68,7 +67,7 @@ export function NextEventSection() {
                 {/* Right - Content */}
                 <div className="p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col justify-center">
                   <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-foreground mb-4 sm:mb-6">
-                    AWAKEN Experience
+                    Estás Para Más · Edición Buenos Aires
                   </h3>
 
                   <div className="flex flex-col gap-3 sm:gap-4 mb-6 sm:mb-8 text-xs sm:text-sm md:text-base">
@@ -78,29 +77,15 @@ export function NextEventSection() {
                     </div>
                     <div className="flex items-start sm:items-center gap-2 sm:gap-3 text-muted-foreground">
                       <Clock size={18} className="text-primary shrink-0 mt-0.5 sm:mt-0" />
-                      <span>15:00 - 19:00 hs</span>
+                      <span>Jornada completa · 9:00 - 19:00 hs</span>
                     </div>
                     <div className="flex items-start sm:items-center gap-2 sm:gap-3 text-muted-foreground">
                       <MapPin size={18} className="text-primary shrink-0 mt-0.5 sm:mt-0" />
-                      <span>Espacio Consciente, Palermo</span>
+                      <span>Salón premium, Buenos Aires</span>
                     </div>
                     <div className="flex items-start sm:items-center gap-2 sm:gap-3 text-muted-foreground">
                       <Users size={18} className="text-primary shrink-0 mt-0.5 sm:mt-0" />
-                      <span>8 de 15 lugares disponibles</span>
-                    </div>
-                  </div>
-
-                  {/* Progress bar */}
-                  <div className="mb-6 sm:mb-8">
-                    <div className="flex justify-between text-xs sm:text-sm mb-2">
-                      <span className="text-muted-foreground">Disponibilidad</span>
-                      <span className="text-primary">53%</span>
-                    </div>
-                    <div className="h-1.5 sm:h-2 rounded-full bg-secondary overflow-hidden">
-                      <div 
-                        className="h-full rounded-full bg-gradient-to-r from-primary to-accent"
-                        style={{ width: "53%" }}
-                      />
+                      <span>Cupos limitados por diseño de la experiencia</span>
                     </div>
                   </div>
 
@@ -108,11 +93,11 @@ export function NextEventSection() {
                   <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
                     <Link href="/reserva" className="flex-1">
                       <Button className="button-mobile bg-primary hover:bg-primary/90 text-primary-foreground group text-xs sm:text-sm">
-                        Reservar mi lugar
+                        Quiero mi lugar
                         <ArrowRight size={14} className="ml-2 group-hover:translate-x-1 transition-transform hidden sm:block" />
                       </Button>
                     </Link>
-                    <Link href="/eventos/awaken-mayo" className="hidden sm:block">
+                    <Link href="/eventos" className="hidden sm:block">
                       <Button variant="outline" className="border-primary/50 hover:bg-primary/10 text-xs sm:text-sm">
                         Ver detalle
                       </Button>
@@ -130,7 +115,7 @@ export function NextEventSection() {
             href="/eventos" 
             className="inline-flex items-center gap-2 text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Ver todos los eventos
+            Ver todas las ediciones
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

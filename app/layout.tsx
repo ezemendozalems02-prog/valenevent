@@ -16,14 +16,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'AWAKEN | Experiencias Inmersivas de Transformación',
-  description: 'Experiencias inmersivas de breathwork, inmersión en hielo, meditación y expansión de conciencia. Despierta tu energía, expande tu conciencia, reconecta con tu poder interior.',
+  title: 'Estás Para Más | Hay una forma de vivir que todavía no conocés',
+  description: 'Estás Para Más es una experiencia de expansión de identidad para mujeres. El día en que dejás de aceptar una vida correcta y empezás a construir una vida elegida.',
   generator: 'v0.app',
-  keywords: ['breathwork', 'inmersión en hielo', 'meditación', 'transformación', 'bienestar', 'conciencia', 'AWAKEN'],
-  authors: [{ name: 'AWAKEN' }],
+  keywords: ['Estás Para Más', 'expansión de identidad', 'evento para mujeres', 'decisión', 'comunidad femenina', 'experiencia premium'],
+  authors: [{ name: 'Estás Para Más' }],
   openGraph: {
-    title: 'AWAKEN | Experiencias Inmersivas de Transformación',
-    description: 'Despierta tu energía. Expande tu conciencia. Reconecta con tu poder interior.',
+    title: 'Estás Para Más | Hay una forma de vivir que todavía no conocés',
+    description: 'Dejá de aceptar una vida que sabés que no te representa. Estás para más.',
     type: 'website',
   },
   icons: {
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#0a1628',
+  themeColor: '#1c1712',
   width: 'device-width',
   initialScale: 1,
 }

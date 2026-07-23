@@ -14,23 +14,23 @@ const contactMethods = [
     title: "WhatsApp",
     description: "La forma más rápida de contactarnos",
     action: "Enviar mensaje",
-    href: "https://wa.me/5491112345678?text=Hola!%20Quiero%20información%20sobre%20AWAKEN",
+    href: "https://wa.me/5491112345678?text=Hola!%20Quiero%20información%20sobre%20Estás%20Para%20Más",
     color: "bg-[#25D366]",
   },
   {
     icon: Instagram,
     title: "Instagram",
     description: "Seguinos y escribinos por DM",
-    action: "@awaken.exp",
-    href: "https://instagram.com/awaken.exp",
+    action: "@estasparamas",
+    href: "https://instagram.com/estasparamas",
     color: "bg-gradient-to-br from-purple-500 to-pink-500",
   },
   {
     icon: Mail,
     title: "Email",
     description: "Para consultas formales",
-    action: "info@awaken.com",
-    href: "mailto:info@awaken.com",
+    action: "hola@estasparamas.com",
+    href: "mailto:hola@estasparamas.com",
     color: "bg-primary",
   },
 ]
@@ -102,10 +102,10 @@ export function ContactSection() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Ubicación</h3>
                   <p className="text-sm text-muted-foreground mb-2">
-                    Nuestras experiencias se realizan en diferentes espacios de Buenos Aires y alrededores.
+                    Nuestras ediciones se realizan en salones premium de Buenos Aires y otras ciudades del país.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    La ubicación exacta se envía después de confirmar tu reserva.
+                    La ubicación exacta se envía después de confirmar tu lugar.
                   </p>
                 </div>
               </div>
@@ -114,13 +114,13 @@ export function ContactSection() {
             {/* Corporate CTA */}
             <div className="mt-8 p-6 rounded-xl glass-card border border-primary/20">
               <h3 className="font-semibold text-foreground mb-2">
-                ¿Experiencia privada o corporativa?
+                ¿Edición privada para tu organización?
               </h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Diseñamos experiencias a medida para equipos, retiros y eventos privados.
+                Diseñamos ediciones a medida para equipos y comunidades de mujeres.
               </p>
               <a
-                href="https://wa.me/5491112345678?text=Hola!%20Quiero%20información%20sobre%20experiencias%20privadas%20o%20corporativas"
+                href="https://wa.me/5491112345678?text=Hola!%20Quiero%20información%20sobre%20ediciones%20privadas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -210,9 +210,9 @@ export function ContactSection() {
                   >
                     <option value="">Seleccionar...</option>
                     <option value="info">Información general</option>
-                    <option value="reserva">Consulta sobre reservas</option>
-                    <option value="privado">Experiencia privada</option>
-                    <option value="corporativo">Experiencia corporativa</option>
+                    <option value="reserva">Consulta sobre mi lugar</option>
+                    <option value="privado">Edición privada</option>
+                    <option value="corporativo">Edición para organizaciones</option>
                     <option value="colaboracion">Colaboración</option>
                     <option value="otro">Otro</option>
                   </select>

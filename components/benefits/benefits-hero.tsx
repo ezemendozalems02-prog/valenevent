@@ -9,7 +9,7 @@ export function BenefitsHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1920&q=80')`,
           }}
         />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/15 rounded-full blur-[120px] animate-breathe z-5" />
@@ -19,16 +19,16 @@ export function BenefitsHero() {
       <div className="relative z-20 container mx-auto px-4 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-6">
-            Beneficios
+            El Movimiento
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="text-foreground">Transforma tu relación</span>
+            <span className="text-foreground">No creemos en el desarrollo personal.</span>
             <br />
-            <span className="text-gradient">contigo mismo</span>
+            <span className="text-gradient">Creemos en una forma distinta de vivir.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Cada experiencia AWAKEN está diseñada para generar cambios reales y duraderos 
-            en tu vida. No es solo lo que vivís durante el evento, sino cómo te transforma después.
+            Estás Para Más no es un evento: es un movimiento que invita a las mujeres a dejar
+            de aceptar una vida correcta para empezar a construir una vida que realmente las represente.
           </p>
         </div>
       </div>

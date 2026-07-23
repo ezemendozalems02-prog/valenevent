@@ -2,38 +2,38 @@
 
 import { useInView } from "react-intersection-observer"
 import { cn } from "@/lib/utils"
-import { Heart, Wind, Snowflake, Sparkles, Sun, Moon } from "lucide-react"
+import { Heart, Wind, Sparkles, Sun, Moon, Compass } from "lucide-react"
 
 const journeySteps = [
   {
     icon: Heart,
-    title: "Apertura del Espacio",
-    description: "Comenzamos creando un ambiente seguro y sagrado. Nos presentamos, establecemos intenciones y preparamos el campo energético para la experiencia.",
+    title: "La Llegada",
+    description: "Entrás a un espacio donde todo está pensado hasta el último detalle. Elegancia, calma y aire: desde el primer minuto sentís que ese día es distinto.",
   },
   {
     icon: Wind,
-    title: "Regulación del Sistema Nervioso",
-    description: "A través de ejercicios de grounding y técnicas de respiración suave, preparamos tu cuerpo para lo que viene. Calmamos la mente y activamos el sistema parasimpático.",
+    title: "La Vida Correcta",
+    description: "Le ponemos nombre a eso que venís sintiendo hace tiempo: una vida que funciona, que cumple, que todos aprueban… pero que no termina de representarte.",
   },
   {
     icon: Sun,
-    title: "Breathwork Profundo",
-    description: "Una sesión intensa de respiración consciente que libera tensiones acumuladas, expande tu capacidad pulmonar y te lleva a estados alterados de conciencia de forma natural.",
+    title: "La Verdad",
+    description: "El momento de decirte la verdad. No la que esperan los demás: la tuya. Porque la transformación ocurre cuando una mujer se anima a decírsela y actúa en consecuencia.",
   },
   {
-    icon: Snowflake,
-    title: "Inmersión en Hielo",
-    description: "El momento cumbre. Te sumergís en agua helada mientras aplicás todo lo aprendido. El frío se convierte en tu maestro, revelando tu fortaleza interior.",
+    icon: Compass,
+    title: "La Decisión",
+    description: "El punto de inflexión de la jornada. Dejar de esperar el momento perfecto, dejar de aceptar menos, y elegir conscientemente una dirección nueva.",
   },
   {
     icon: Moon,
-    title: "Integración Profunda",
-    description: "Después del frío, viene la calma. Un espacio para procesar, descansar y permitir que el cuerpo integre la experiencia mientras te rehidratas y recuperas.",
+    title: "La Expansión",
+    description: "Diseñás cómo se ve una vida elegida: qué tipo de mujer necesitás convertirte para construir la vida que soñás. El resultado llega después de la identidad, nunca antes.",
   },
   {
     icon: Sparkles,
-    title: "Cierre Expansivo",
-    description: "Sound journey, meditación guiada y círculo de cierre. Anclamos los aprendizajes y nos preparamos para llevar esta transformación a la vida cotidiana.",
+    title: "La Comunidad",
+    description: "El cierre no es un final: es un comienzo. Te vas con una comunidad de mujeres que tomaron la misma decisión, porque ninguna transformación importante ocurre completamente sola.",
   },
 ]
 
@@ -61,8 +61,8 @@ export function JourneySection() {
             <span className="text-gradient">la jornada</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Cada momento está diseñado para prepararte para el siguiente, 
-            creando una experiencia integral que trabaja cuerpo, mente y espíritu.
+            Cada momento responde una pregunta y abre otra.
+            No es una agenda de charlas: es un recorrido diseñado para llevarte hasta una decisión.
           </p>
         </div>
 

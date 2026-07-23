@@ -8,7 +8,7 @@ export function FacilitatorsHero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1920&q=80')`,
           }}
         />
         <div className="absolute top-1/3 right-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[100px] animate-breathe z-5" />
@@ -17,16 +17,16 @@ export function FacilitatorsHero() {
       <div className="relative z-20 container mx-auto px-4 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block text-sm text-primary tracking-[0.2em] uppercase mb-6">
-            Facilitadores
+            Quién Te Guía
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="text-foreground">Quienes te</span>
+            <span className="text-foreground">Una guía,</span>
             <br />
-            <span className="text-gradient">guiarán</span>
+            <span className="text-gradient">no una gurú</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Profesionales certificados con años de experiencia que te acompañarán 
-            con presencia, contención y sabiduría en cada paso del camino.
+            Valentina no viene a decirte cómo vivir. Ya recorrió el camino de dejar
+            una vida correcta, y hoy acompaña a otras mujeres a animarse a lo mismo.
           </p>
         </div>
       </div>

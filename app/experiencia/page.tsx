@@ -8,8 +8,8 @@ import { WhatMakesUsDifferent } from "@/components/experience/what-makes-us-diff
 import { CTASection } from "@/components/home/cta-section"
 
 export const metadata = {
-  title: "La Experiencia | AWAKEN",
-  description: "Descubre qué vive una persona al asistir a una experiencia AWAKEN. Un viaje profundo de transformación interior.",
+  title: "La Experiencia | Estás Para Más",
+  description: "Qué vive una mujer en Estás Para Más: el día en que deja de aceptar una vida correcta y empieza a construir una vida elegida.",
 }
 
 export default function ExperiencePage() {

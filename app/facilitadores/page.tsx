@@ -6,8 +6,8 @@ import { FacilitatorsGrid } from "@/components/facilitators/facilitators-grid"
 import { CTASection } from "@/components/home/cta-section"
 
 export const metadata = {
-  title: "Facilitadores | AWAKEN",
-  description: "Conoce al equipo de facilitadores certificados que te guiarán en tu experiencia AWAKEN.",
+  title: "Quién Te Guía | Estás Para Más",
+  description: "Conocé a Valentina, creadora de Estás Para Más. Una guía, no una gurú: la protagonista siempre sos vos.",
 }
 
 export default function FacilitatorsPage() {

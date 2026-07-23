@@ -7,8 +7,8 @@ import { PhilosophySection } from "@/components/benefits/philosophy-section"
 import { CTASection } from "@/components/home/cta-section"
 
 export const metadata = {
-  title: "Beneficios | AWAKEN",
-  description: "Descubre los beneficios reales, emocionales y energéticos de las experiencias AWAKEN.",
+  title: "El Movimiento | Estás Para Más",
+  description: "Estás Para Más no es un evento: es un movimiento. La filosofía detrás de la experiencia y lo que te llevás de ella.",
 }
 
 export default function BenefitsPage() {

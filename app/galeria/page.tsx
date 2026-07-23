@@ -6,8 +6,8 @@ import { GalleryHero } from '@/components/gallery/gallery-hero'
 import { GalleryGrid } from '@/components/gallery/gallery-grid'
 
 export const metadata: Metadata = {
-  title: 'Galería | AWAKEN',
-  description: 'Explora momentos de transformación capturados en nuestras experiencias AWAKEN.',
+  title: 'Galería | Estás Para Más',
+  description: 'Momentos reales de las ediciones de Estás Para Más.',
 }
 
 export default function GalleryPage() {

@@ -6,8 +6,8 @@ import { TestimonialsGrid } from "@/components/testimonials/testimonials-grid"
 import { CTASection } from "@/components/home/cta-section"
 
 export const metadata = {
-  title: "Testimonios | AWAKEN",
-  description: "Descubre las experiencias transformadoras de quienes ya vivieron AWAKEN.",
+  title: "Historias | Estás Para Más",
+  description: "Historias reales de mujeres que dejaron de conformarse con una vida correcta.",
 }
 
 export default function TestimonialsPage() {

@@ -5,34 +5,34 @@ import { cn } from "@/lib/utils"
 
 const timelineSteps = [
   {
-    time: "15:00",
-    title: "Llegada y Bienvenida",
-    description: "Recepción en el espacio, presentaciones y preparación del ambiente para comenzar la experiencia.",
+    time: "Llegada",
+    title: "Bienvenida",
+    description: "Entrás a un espacio pensado hasta el último detalle. Desde el primer minuto, todo invita a respirar más profundo.",
   },
   {
-    time: "15:30",
-    title: "Preparación Emocional",
-    description: "Ejercicios de grounding, regulación del sistema nervioso y establecimiento de intenciones personales.",
+    time: "Primer acto",
+    title: "La Vida Correcta",
+    description: "Ponerle nombre a eso que venís sintiendo: una vida que está bien, pero que no termina de representarte.",
   },
   {
-    time: "16:00",
-    title: "Breathwork Guiado",
-    description: "Sesión intensa de respiración consciente para expandir tu capacidad y acceder a estados elevados.",
+    time: "Segundo acto",
+    title: "La Verdad",
+    description: "El momento de decirte la verdad. No la que esperan los demás: la tuya.",
   },
   {
-    time: "17:00",
-    title: "Inmersión en Hielo",
-    description: "El momento cumbre: enfrentar el frío conscientemente mientras descubres tu fortaleza interior.",
+    time: "Tercer acto",
+    title: "La Decisión",
+    description: "El punto de inflexión de la experiencia. Dejar de esperar el momento perfecto y elegir una dirección.",
   },
   {
-    time: "17:45",
-    title: "Integración y Descanso",
-    description: "Espacio de calma para procesar la experiencia, hidratación y reconexión con el cuerpo.",
+    time: "Cuarto acto",
+    title: "La Expansión",
+    description: "Diseñar cómo se ve una vida elegida conscientemente. Más grande, más tuya.",
   },
   {
-    time: "18:30",
-    title: "Cierre Expansivo",
-    description: "Sound journey, meditación final y círculo de cierre para anclar los aprendizajes.",
+    time: "Cierre",
+    title: "La Comunidad",
+    description: "No te vas sola. Te vas con una comunidad de mujeres que tomaron la misma decisión que vos.",
   },
 ]
 
@@ -61,7 +61,7 @@ export function TimelineSection() {
             <span className="text-gradient">la experiencia</span>
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-            Un viaje cuidadosamente diseñado donde cada momento te prepara para el siguiente.
+            No es una agenda de charlas. Es un recorrido diseñado para que cada momento abra una pregunta y el siguiente la responda.
           </p>
         </div>
 

@@ -7,14 +7,14 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Check } from "lucide-react"
 
 const benefits = [
-  "Mejora de la conexión mente-cuerpo",
-  "Aumento de presencia y enfoque",
-  "Fortalecimiento de la resiliencia mental",
-  "Regulación del estrés y la ansiedad",
-  "Mayor tolerancia al disconfort",
-  "Claridad mental renovada",
-  "Liberación emocional profunda",
-  "Sensación de energía vital",
+  "Claridad sobre la vida que querés construir",
+  "Una decisión tomada, no postergada",
+  "Responsabilidad como forma de libertad",
+  "Dejar de confundir estabilidad con plenitud",
+  "Una mirada nueva sobre tu propia historia",
+  "Comunidad de mujeres que eligen más",
+  "Dirección concreta para el día siguiente",
+  "Volver a escuchar tu propia voz",
 ]
 
 export function BenefitsSection() {
@@ -41,7 +41,7 @@ export function BenefitsSection() {
               <div 
                 className="aspect-square rounded-xl sm:rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80')`,
                 }}
               />
               
@@ -51,10 +51,10 @@ export function BenefitsSection() {
               {/* Quote card */}
               <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 glass p-3 sm:p-6 rounded-lg sm:rounded-xl">
                 <p className="text-sm sm:text-lg font-medium text-foreground italic line-clamp-2">
-                  &quot;Como te enfrentas al hielo, te enfrentas a la vida.&quot;
+                  &quot;Una vida correcta puede ser más peligrosa que una vida mala.&quot;
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground mt-1 sm:mt-2">
-                  — AWAKEN
+                  — Estás Para Más
                 </p>
               </div>
             </div>
@@ -66,14 +66,14 @@ export function BenefitsSection() {
             inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
           )}>
             <span className="inline-block text-xs sm:text-sm text-primary tracking-[0.2em] uppercase mb-3 sm:mb-4">
-              Beneficios
+              Con qué te vas
             </span>
             <h2 className="mobile-heading-md font-bold text-foreground mb-4 sm:mb-6 leading-tight text-balance">
-              Transforma tu relación{" "}
-              <span className="text-gradient">contigo mismo</span>
+              No salís motivada.{" "}
+              <span className="text-gradient">Salís distinta.</span>
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed mb-6 sm:mb-8">
-              Cada experiencia AWAKEN está diseñada para generar cambios reales y duraderos en tu vida.
+              No prometemos cambiarte la vida en un día. Prometemos algo más poderoso: ser el punto de inflexión que marque el comienzo de ese cambio.
             </p>
 
             {/* Benefits list */}
@@ -101,7 +101,7 @@ export function BenefitsSection() {
                 variant="outline" 
                 className="border-primary/50 hover:bg-primary/10 text-foreground group text-xs sm:text-sm"
               >
-                Descubrir todos
+                Conocer el movimiento
                 <ArrowRight size={14} className="ml-2 group-hover:translate-x-1 transition-transform hidden sm:block" />
               </Button>
             </Link>
