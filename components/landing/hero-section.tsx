@@ -68,8 +68,8 @@ export function HeroSection() {
         {/* Image */}
         <div className="relative order-1 lg:order-2 aspect-[4/3] sm:aspect-[16/10] lg:aspect-auto lg:h-full">
           <img
-            src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1600&q=80"
-            alt="Salón donde se realiza Estás Para Más"
+            src="https://images.unsplash.com/photo-1555725305-e823b44548de?w=1600&q=80"
+            alt="Mujeres reunidas en un evento Estás Para Más"
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent lg:bg-gradient-to-r lg:from-background/20 lg:via-transparent lg:to-transparent" />
