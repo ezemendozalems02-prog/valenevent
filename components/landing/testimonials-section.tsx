@@ -6,7 +6,23 @@ type Testimonial =
   | { type: "quote"; quote: string; name: string; detail?: string }
   | { type: "screenshot"; src: string; alt: string }
 
-const testimonials: Testimonial[] = []
+const testimonials: Testimonial[] = [
+  {
+    type: "screenshot",
+    src: "/testimonios/captura-1.jpg",
+    alt: "Captura de conversación de WhatsApp de una participante",
+  },
+  {
+    type: "screenshot",
+    src: "/testimonios/captura-2.jpg",
+    alt: "Captura de mensajes de participantes celebrando una decisión",
+  },
+  {
+    type: "screenshot",
+    src: "/testimonios/captura-3.jpg",
+    alt: "Captura de mensajes del grupo agradeciendo la experiencia",
+  },
+]
 
 export function TestimonialsSection() {
   return (

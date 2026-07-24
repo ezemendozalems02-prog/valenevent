@@ -7,8 +7,8 @@ export function AboutSection() {
           <div className="md:col-span-2">
             <div className="relative aspect-[3/4] rounded-lg overflow-hidden border border-stone">
               <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80"
-                alt="Valentina, creadora de Estás Para Más"
+                src="/quien-te-guia.jpg"
+                alt="Valentina Parodi, creadora de Estás Para Más"
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
