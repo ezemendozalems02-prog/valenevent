@@ -8,7 +8,7 @@ const TICKET_PRICE_DISPLAY =
   process.env.NEXT_PUBLIC_TICKET_PRICE_DISPLAY ?? "$180.000"
 
 const includes = [
-  "Jornada completa presencial (9:00 a 19:00 hs)",
+  "Jornada completa presencial (9:00 a 20:00 hs)",
   "Materiales de trabajo impresos",
   "Coffee breaks y almuerzo",
   "Acceso a la comunidad Estás Para Más",
@@ -146,7 +146,7 @@ export function CheckoutSection() {
                 <p className="mt-4 text-center text-sm text-destructive">
                   No pudimos iniciar el pago. Escribinos por{" "}
                   <a
-                    href="https://wa.me/5491112345678?text=Hola!%20Quiero%20reservar%20mi%20lugar%20en%20Estás%20Para%20Más"
+                    href="https://wa.me/5493541694363?text=Hola!%20Quiero%20reservar%20mi%20lugar%20en%20Estás%20Para%20Más"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline text-plum"

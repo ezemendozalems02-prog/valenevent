@@ -1,8 +1,8 @@
 import { Calendar, Clock, MapPin, Users } from "lucide-react"
 
 const details = [
-  { icon: Calendar, label: "Fecha", value: "Sábado 15 de Mayo, 2026" },
-  { icon: Clock, label: "Duración", value: "Jornada completa · 9:00 a 19:00 hs" },
+  { icon: Calendar, label: "Fecha", value: "Lunes 17 de Agosto, 2026 (feriado)" },
+  { icon: Clock, label: "Duración", value: "Jornada completa · 9:00 a 20:00 hs" },
   { icon: MapPin, label: "Lugar", value: "Salón premium, Buenos Aires" },
   { icon: Users, label: "Modalidad", value: "Presencial · Cupos limitados" },
 ]

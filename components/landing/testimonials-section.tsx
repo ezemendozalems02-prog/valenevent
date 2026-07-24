@@ -1,23 +1,12 @@
-const testimonials = [
-  {
-    quote:
-      "Llegué pensando que era un evento más. Me fui con la decisión que venía postergando hace tres años.",
-    name: "Carolina",
-    detail: "38 años · Buenos Aires",
-  },
-  {
-    quote:
-      "No hubo promesas ni fórmulas. Hubo silencio, preguntas verdaderas y una claridad que todavía me acompaña.",
-    name: "Mercedes",
-    detail: "45 años · Córdoba",
-  },
-  {
-    quote:
-      "Un mes después cambié de trabajo. No por impulso: por elección. Esa es la diferencia.",
-    name: "Sofía",
-    detail: "33 años · Rosario",
-  },
-]
+// Testimonios reales. Para agregar una captura de WhatsApp/mensaje:
+// 1) Guardá la imagen en /public/testimonios/ (ej: captura-1.jpg)
+// 2) Agregá un item { type: "screenshot", src: "/testimonios/captura-1.jpg", alt: "..." }
+// Para un testimonio de texto real, agregá { type: "quote", quote: "...", name: "...", detail: "..." }
+type Testimonial =
+  | { type: "quote"; quote: string; name: string; detail?: string }
+  | { type: "screenshot"; src: string; alt: string }
+
+const testimonials: Testimonial[] = []
 
 export function TestimonialsSection() {
   return (
@@ -32,22 +21,39 @@ export function TestimonialsSection() {
           </h2>
         </div>
 
-        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 sm:gap-8">
-          {testimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="flex flex-col justify-between p-7 sm:p-8 rounded-lg border border-lavender/25 bg-plum/40"
-            >
-              <blockquote className="font-serif text-lg sm:text-xl text-lavender-pale leading-snug mb-6">
-                &ldquo;{t.quote}&rdquo;
-              </blockquote>
-              <figcaption>
-                <span className="block text-sm font-medium text-soft-white">{t.name}</span>
-                <span className="block text-xs text-lavender mt-1">{t.detail}</span>
-              </figcaption>
-            </figure>
-          ))}
-        </div>
+        {testimonials.length === 0 ? (
+          <div className="max-w-md mx-auto text-center py-10 border border-lavender/20 rounded-lg">
+            <p className="text-sm text-lavender-pale/80">
+              Testimonios reales, muy pronto.
+            </p>
+          </div>
+        ) : (
+          <div className="max-w-5xl mx-auto columns-1 sm:columns-2 lg:columns-3 gap-6">
+            {testimonials.map((t, i) => (
+              <div key={i} className="break-inside-avoid mb-6">
+                {t.type === "screenshot" ? (
+                  <img
+                    src={t.src}
+                    alt={t.alt}
+                    className="w-full h-auto rounded-lg border border-lavender/25"
+                  />
+                ) : (
+                  <figure className="flex flex-col justify-between p-7 sm:p-8 rounded-lg border border-lavender/25 bg-plum/40">
+                    <blockquote className="font-serif text-lg sm:text-xl text-lavender-pale leading-snug mb-6">
+                      &ldquo;{t.quote}&rdquo;
+                    </blockquote>
+                    <figcaption>
+                      <span className="block text-sm font-medium text-soft-white">{t.name}</span>
+                      {t.detail && (
+                        <span className="block text-xs text-lavender mt-1">{t.detail}</span>
+                      )}
+                    </figcaption>
+                  </figure>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   )

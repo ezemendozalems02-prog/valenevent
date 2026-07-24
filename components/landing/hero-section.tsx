@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Calendar, Clock, MapPin } from "lucide-react"
 
 const eventFacts = [
-  { icon: Calendar, label: "Sábado 15 de Mayo" },
-  { icon: Clock, label: "9:00 a 19:00 hs" },
+  { icon: Calendar, label: "Lunes 17 de Agosto (feriado)" },
+  { icon: Clock, label: "9:00 a 20:00 hs" },
   { icon: MapPin, label: "Salón premium, Buenos Aires" },
 ]
 

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Instagram, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -20,7 +20,7 @@ export function Footer() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://instagram.com/estasparamas"
+              href="https://www.instagram.com/soyvalentinaparodi?igsh=cHdpaXQwY21iZzhs"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-lavender-pale text-plum-deep transition-colors duration-300 touch-target"
@@ -29,20 +29,13 @@ export function Footer() {
               <Instagram size={18} strokeWidth={1.5} />
             </a>
             <a
-              href="https://wa.me/5491112345678"
+              href="https://wa.me/5493541694363"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-lavender-pale text-plum-deep transition-colors duration-300 touch-target"
               aria-label="WhatsApp"
             >
               <Phone size={18} strokeWidth={1.5} />
-            </a>
-            <a
-              href="mailto:hola@estasparamas.com"
-              className="p-3 rounded-full bg-secondary hover:bg-lavender-pale text-plum-deep transition-colors duration-300 touch-target"
-              aria-label="Email"
-            >
-              <Mail size={18} strokeWidth={1.5} />
             </a>
           </div>
 
